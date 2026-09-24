@@ -1,0 +1,12 @@
+{
+    "algorithm": "translate",
+    "domain": "large data set_n=100",
+    "problem": "instance_n=100_354.alb",
+    "id": [
+        "translate",
+        "large data set_n=100",
+        "instance_n=100_354.alb"
+    ],
+    "run": 851,
+    "command": "/home/bemrkuro/code/or-baselines/alb/salbp1_to_didp.py \"/home/bemrkuro/code/or-baselines/alb/SALBP-2013/large data set_n=100/instance_n=100_354.alb\"  --memory-limit 4192"
+}

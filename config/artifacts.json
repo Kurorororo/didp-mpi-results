@@ -1,0 +1,292 @@
+{
+  "description": "Tracked output definitions and explicitly selected instance identifiers. Numerical results are computed from data, not stored here.",
+  "figures": [
+    {
+      "document": "main",
+      "number": 1,
+      "label": "fig:cahdbs2-tsptw-optimality",
+      "file": "plots/cabs-tsptw-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 2,
+      "label": "fig:results-768-tsptw",
+      "file": "plots/only-768-tsptw-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 3,
+      "label": "fig:failure-modes",
+      "file": "plots/failure-modes.pdf"
+    },
+    {
+      "document": "main",
+      "number": 4,
+      "label": "fig:results-768-salbp-1",
+      "file": "plots/only-768-salbp-1-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 5,
+      "label": "fig:results-tsptw",
+      "file": "plots/hac-tsptw-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 6,
+      "label": "fig:results-salbp-1",
+      "file": "plots/hac-salbp-1-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 7,
+      "label": "fig:results-m-pdtsp",
+      "file": "plots/hac-m-pdtsp-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 8,
+      "label": "fig:results-sualbp-2",
+      "file": "plots/hac-sualbp-2-optimality.pdf"
+    },
+    {
+      "document": "main",
+      "number": 9,
+      "label": "fig:memory",
+      "file": "plots/memory-growth.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 1,
+      "label": "fig:acps-tsptw-optimality",
+      "file": "plots/acps-tsptw-optimality.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 2,
+      "label": "fig:acps-salbp-1-optimality",
+      "file": "plots/acps-salbp-1-optimality.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 3,
+      "label": "fig:apps-tsptw-optimality",
+      "file": "plots/apps-tsptw-optimality.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 4,
+      "label": "fig:apps-salbp-1-optimality",
+      "file": "plots/apps-salbp-1-optimality.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 5,
+      "label": "fig:breakdown",
+      "file": "plots/mpi-breakdown.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 6,
+      "label": "fig:hac-1-96",
+      "file": "plots/hac-96-tsptw-total.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 6,
+      "label": "fig:hac-1-96",
+      "file": "plots/hac-96-salbp-1-total.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 7,
+      "label": "fig:hac-1-96-others",
+      "file": "plots/hac-96-m-pdtsp-total.pdf"
+    },
+    {
+      "document": "appendix",
+      "number": 7,
+      "label": "fig:hac-1-96-others",
+      "file": "plots/hac-96-sualbp-2-total.pdf"
+    }
+  ],
+  "tables": [
+    {
+      "document": "main",
+      "number": 1,
+      "label": "tab:cahdbs2",
+      "file": "tables/cahdbs2.tex",
+      "header": "\\begin{tabular}{rrr*{3}{r}}\n\\toprule\nCores & Speedup & SO    & CO    & LB    & RC     \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 6
+    },
+    {
+      "document": "main",
+      "number": 2,
+      "label": "tab:tsptw",
+      "file": "tables/tsptw.tex",
+      "header": "\\begin{tabular}{lrrrrrrrrrrr}\n\\toprule\n&       & \\multicolumn{5}{c}{TSPTW} & \\multicolumn{5}{c}{SALBP-1}                                                                        \\\\\n\\cmidrule(lr){3-7}\\cmidrule(lr){8-12}\nMethod & Cores & Instances                 & Speedup                     & SO    & CO    & LB    & Instances & Speedup & SO     & CO    & LB    \\\\\n\\midrule\n",
+      "rows": 9,
+      "columns": 12
+    },
+    {
+      "document": "main",
+      "number": 3,
+      "label": "tab:tsptw-salbp-1-beyond1536",
+      "file": "tables/tsptw-salbp-1-beyond1536.tex",
+      "header": "\\begin{tabular}{rr*{10}{r}}\n\\toprule\n&        & \\multicolumn{5}{c}{TSPTW} & \\multicolumn{5}{c}{SALBP-1}                                                                         \\\\\n\\cmidrule(lr){3-7}\\cmidrule(lr){8-12}\nBase   & Cores  & Instances                 & Speedup                     & SO     & CO    & LB    & Instances & Speedup & SO     & CO    & LB    \\\\\n\\midrule\n",
+      "rows": 6,
+      "columns": 12
+    },
+    {
+      "document": "main",
+      "number": 4,
+      "label": "tab:m-pdtsp-sualbp-2-beyond1536",
+      "file": "tables/m-pdtsp-sualbp-2-beyond1536.tex",
+      "header": "\\begin{tabular}{rr*{10}{r}}\n\\toprule\n&        & \\multicolumn{5}{c}{m-PDTSP} & \\multicolumn{5}{c}{SUALBP-2}                                                                       \\\\\n\\cmidrule(lr){3-7}\\cmidrule(lr){8-12}\nBase   & Cores  & Instances                   & Speedup                      & SO    & CO    & LB    & Instances & Speedup & SO    & CO    & LB    \\\\\n\\midrule\n",
+      "rows": 9,
+      "columns": 12
+    },
+    {
+      "document": "main",
+      "number": 5,
+      "label": "tab:brfs",
+      "file": "tables/brfs.tex",
+      "header": "\\begin{tabular}{lllr*{7}{r}}\n\\toprule\n&                    &              &        & \\multicolumn{4}{c}{BrFS2} & \\multicolumn{3}{c}{BrFS3}                                                 \\\\\n\\cmidrule(lr){5-8}\\cmidrule(lr){9-11}\nClass   & Set                & Instance     & Cores  & Time                      & CO                        & LB    & RC    & Time          & CO    & LB    \\\\\n\\midrule\n",
+      "rows": 9,
+      "columns": 11
+    },
+    {
+      "document": "appendix",
+      "number": 1,
+      "label": "tab:communication",
+      "file": "tables/communication.tex",
+      "header": "\\begin{tabular}{lrrrrrrr}\n\\toprule\n& Search time & Expansions & \\multicolumn{2}{c}{MPI\\_Bsend calls} & \\multicolumn{2}{c}{Payload (GB)} \\\\\n& (s) & (millions) & \\multicolumn{2}{c}{(millions)} & & \\\\\n\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}\nConfiguration & & & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 7
+    },
+    {
+      "document": "appendix",
+      "number": 2,
+      "label": "tab:communication-per-expansion",
+      "file": "tables/communication-per-expansion.tex",
+      "header": "\\begin{tabular}{lrrrrrr}\n\\toprule\n& \\multicolumn{2}{c}{MPI\\_Bsend calls / expansion} & \\multicolumn{2}{c}{Payload bytes / expansion} \\\\\n\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\nConfiguration & Intra-machine & Inter-machine & Intra-machine & Inter-machine \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "document": "appendix",
+      "number": 3,
+      "label": "tab:hac-1-96",
+      "file": "tables/hac-1-96.tex",
+      "header": "\\begin{tabular}{l*{10}{r}}\n\\toprule\n& & \\multicolumn{8}{c}{Speedup} & Only \\\\\n\\cmidrule(lr){3-10}\nProblem & Instances & $<1$ & $[1,16)$ & $[16,32)$ & $[32,48)$ & $[48,64)$ & $[64,80)$ & $[80,96]$ & $>96$ & 96 cores \\\\\n\\midrule\n",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "document": "appendix",
+      "number": 4,
+      "label": "tab:closed-tsptw",
+      "file": "tables/closed-tsptw.tex",
+      "header": "\\begin{tabular}{llrlr}\n\\toprule\nInstance set & Instance & Cost & Methods & Cores \\\\\n\\midrule\n",
+      "rows": 14,
+      "columns": 5
+    },
+    {
+      "document": "appendix",
+      "number": 5,
+      "label": "tab:closed-m-pdtsp",
+      "file": "tables/closed-m-pdtsp.tex",
+      "header": "\\begin{tabular}{lrlr}\n\\toprule\nInstance & Cost & Method & Cores \\\\\n\\midrule\n",
+      "rows": 7,
+      "columns": 4
+    },
+    {
+      "document": "appendix",
+      "number": 6,
+      "label": "tab:closed",
+      "file": "tables/closed.tex",
+      "header": "\\begin{tabular}{lllrrrrrrrrrrr}\n\\toprule\nProblem & Instances from & 1 & 96 & 768 & 1536 & 6144 & 12288 & 24576 & 49152 & Total  \\\\\n\\midrule\n",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "document": "appendix",
+      "number": 7,
+      "label": "tab:bound",
+      "file": "tables/bound.tex",
+      "header": "\\begin{tabular}{lrrrrrrrrrr}\n\\toprule\n& 1 & 96 & 768 & 1536 & 6144 & 12288 & 24576 & 49152 & Total \\\\\n\\midrule\n",
+      "rows": 2,
+      "columns": 10
+    }
+  ],
+  "selections": {
+    "closed_tsptw": [
+      {
+        "instance_set_tex": "\\cite{Ascheuer1995}",
+        "instance": "rbg050c"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "rbg193.2"
+      },
+      {
+        "instance_set_tex": "\\cite{Gendreau1998}",
+        "instance": "n60w180.003"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n80w160.002"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n80w160.005"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n80w180.002"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n100w120.003"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n100w140.001"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n100w140.002"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n100w160.002"
+      },
+      {
+        "instance_set_tex": "\\cite{Ohlmann2007}",
+        "instance": "n150w120.001"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n150w120.004"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n150w140.002"
+      },
+      {
+        "instance_set_tex": "",
+        "instance": "n150w160.001"
+      }
+    ],
+    "closed_m_pdtsp_order": [
+      "p43.2Q2max1",
+      "p43.2Q3max1",
+      "p43.2Q4max1",
+      "p43.2Q5max1",
+      "p43.2Q6max1",
+      "p43.2Q10max5",
+      "p43.2Q15max5"
+    ]
+  }
+}

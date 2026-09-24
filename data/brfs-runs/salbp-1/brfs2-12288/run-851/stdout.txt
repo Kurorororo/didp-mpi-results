@@ -1,0 +1,160 @@
+Time to initialize MPI: 1.428117705s
+Initial dual bound: 50
+Time for initialization: 1.440876058s
+Searched layer: 0, elapsed time: 1.47127413
+Searched layer: 1, elapsed time: 2.64554305
+Searched layer: 2, elapsed time: 6.543688632
+Searched layer: 3, elapsed time: 8.981516433
+Searched layer: 4, elapsed time: 10.818876584
+Searched layer: 5, elapsed time: 14.000788076
+Searched layer: 6, elapsed time: 16.439029654
+Searched layer: 7, elapsed time: 17.597758808000002
+Searched layer: 8, elapsed time: 19.550802133
+Searched layer: 9, elapsed time: 21.975955664
+Searched layer: 10, elapsed time: 23.460017981
+Searched layer: 11, elapsed time: 25.031397626
+Searched layer: 12, elapsed time: 28.070674292
+Searched layer: 13, elapsed time: 29.289216949
+Searched layer: 14, elapsed time: 31.257091024
+Searched layer: 15, elapsed time: 34.959114503
+Searched layer: 16, elapsed time: 35.648954236
+Searched layer: 17, elapsed time: 39.089142361
+Searched layer: 18, elapsed time: 43.132885236
+Searched layer: 19, elapsed time: 46.260489158
+Searched layer: 20, elapsed time: 48.722449345
+Searched layer: 21, elapsed time: 51.830804549
+Searched layer: 22, elapsed time: 54.259713236
+Searched layer: 23, elapsed time: 56.744890114
+Searched layer: 24, elapsed time: 59.233260079
+Searched layer: 25, elapsed time: 61.727668194
+Searched layer: 26, elapsed time: 64.821649884
+Searched layer: 27, elapsed time: 67.297540748
+Searched layer: 28, elapsed time: 69.811509718
+Searched layer: 29, elapsed time: 72.322367867
+Searched layer: 30, elapsed time: 75.457110519
+Searched layer: 31, elapsed time: 77.961227485
+Searched layer: 32, elapsed time: 81.072611974
+Searched layer: 33, elapsed time: 83.575181444
+Searched layer: 34, elapsed time: 86.05283325
+Searched layer: 35, elapsed time: 88.559420593
+Searched layer: 36, elapsed time: 90.34320674
+Searched layer: 37, elapsed time: 93.446315979
+Searched layer: 38, elapsed time: 95.952309541
+Searched layer: 39, elapsed time: 97.826771566
+Searched layer: 40, elapsed time: 100.303721938
+Searched layer: 41, elapsed time: 103.403946684
+Searched layer: 42, elapsed time: 105.853273365
+Searched layer: 43, elapsed time: 108.28427127
+Searched layer: 44, elapsed time: 111.171390889
+Searched layer: 45, elapsed time: 113.164855045
+Searched layer: 46, elapsed time: 118.152540501
+Searched layer: 47, elapsed time: 120.590778895
+Searched layer: 48, elapsed time: 122.399056144
+Searched layer: 49, elapsed time: 124.190515853
+Searched layer: 50, elapsed time: 126.711350647
+Searched layer: 51, elapsed time: 129.158825538
+Searched layer: 52, elapsed time: 131.603428254
+Searched layer: 53, elapsed time: 134.045557747
+Searched layer: 54, elapsed time: 137.115028437
+Searched layer: 55, elapsed time: 140.220295815
+Searched layer: 56, elapsed time: 143.308647829
+Searched layer: 57, elapsed time: 146.412363039
+Searched layer: 58, elapsed time: 150.171448908
+Searched layer: 59, elapsed time: 153.270342754
+Searched layer: 60, elapsed time: 156.370633716
+Searched layer: 61, elapsed time: 160.126053481
+Searched layer: 62, elapsed time: 163.220631657
+Searched layer: 63, elapsed time: 165.740719192
+Searched layer: 64, elapsed time: 168.206224986
+Searched layer: 65, elapsed time: 171.617816593
+Searched layer: 66, elapsed time: 174.705247219
+Searched layer: 67, elapsed time: 177.469322206
+Searched layer: 68, elapsed time: 179.897502114
+Searched layer: 69, elapsed time: 183.439637538
+Searched layer: 70, elapsed time: 189.961464532
+Searched layer: 71, elapsed time: 193.777922965
+Searched layer: 72, elapsed time: 196.526241651
+Searched layer: 73, elapsed time: 199.814338567
+Searched layer: 74, elapsed time: 203.703964098
+Searched layer: 75, elapsed time: 206.745698679
+Searched layer: 76, elapsed time: 210.52414803
+Searched layer: 77, elapsed time: 214.433808935
+Searched layer: 78, elapsed time: 217.788306833
+Searched layer: 79, elapsed time: 222.22755166
+Searched layer: 80, elapsed time: 226.738343855
+Searched layer: 81, elapsed time: 230.581931459
+Searched layer: 82, elapsed time: 235.857741912
+Searched layer: 83, elapsed time: 240.830435536
+Searched layer: 84, elapsed time: 245.156920534
+Searched layer: 85, elapsed time: 250.680789537
+Searched layer: 86, elapsed time: 256.396132781
+Searched layer: 87, elapsed time: 261.476704567
+Searched layer: 88, elapsed time: 268.159910898
+Searched layer: 89, elapsed time: 274.364667584
+Searched layer: 90, elapsed time: 281.0357796
+Searched layer: 91, elapsed time: 289.09992194
+Searched layer: 92, elapsed time: 297.383506097
+Searched layer: 93, elapsed time: 304.834833375
+Searched layer: 94, elapsed time: 314.904637547
+Searched layer: 95, elapsed time: 324.383269231
+Searched layer: 96, elapsed time: 333.587482884
+Searched layer: 97, elapsed time: 346.069179938
+Searched layer: 98, elapsed time: 358.903198562
+Searched layer: 99, elapsed time: 369.967019616
+Searched layer: 100, elapsed time: 385.370359535
+Searched layer: 101, elapsed time: 404.258685339
+Searched layer: 102, elapsed time: 413.11789481
+Searched layer: 103, elapsed time: 425.098099849
+Searched layer: 104, elapsed time: 437.889914335
+Searched layer: 105, elapsed time: 446.709231778
+Searched layer: 106, elapsed time: 458.90972483
+Searched layer: 107, elapsed time: 473.113521941
+Searched layer: 108, elapsed time: 482.149057133
+Searched layer: 109, elapsed time: 493.426658559
+Searched layer: 110, elapsed time: 509.093377939
+Searched layer: 111, elapsed time: 514.311800095
+Searched layer: 112, elapsed time: 520.921694386
+Searched layer: 113, elapsed time: 528.005754977
+Searched layer: 114, elapsed time: 531.859332801
+Searched layer: 115, elapsed time: 536.251531996
+Searched layer: 116, elapsed time: 541.834959482
+Searched layer: 117, elapsed time: 545.258140468
+Searched layer: 118, elapsed time: 547.938205761
+Searched layer: 119, elapsed time: 551.270904979
+Searched layer: 120, elapsed time: 553.747442171
+Searched layer: 121, elapsed time: 558.113917369
+Searched layer: 122, elapsed time: 560.596342584
+Searched layer: 123, elapsed time: 563.705919042
+Searched layer: 124, elapsed time: 567.448175367
+Searched layer: 125, elapsed time: 571.200434146
+Searched layer: 126, elapsed time: 573.709132929
+Searched layer: 127, elapsed time: 576.221979894
+Searched layer: 128, elapsed time: 578.096757808
+Searched layer: 129, elapsed time: 581.199882014
+Searched layer: 130, elapsed time: 583.689759895
+Searched layer: 131, elapsed time: 586.765247671
+Searched layer: 132, elapsed time: 589.020805994
+Searched layer: 133, elapsed time: 590.910908063
+Searched layer: 134, elapsed time: 593.975021575
+Searched layer: 135, elapsed time: 596.458343153
+Searched layer: 136, elapsed time: 598.395542369
+Searched layer: 137, elapsed time: 601.541680002
+Searched layer: 138, elapsed time: 604.036926452
+Searched layer: 139, elapsed time: 606.531088587
+Searched layer: 140, elapsed time: 608.439696953
+Searched layer: 141, elapsed time: 610.240256745
+Searched layer: 142, elapsed time: 612.381762411
+The problem is infeasible.
+Expanded: 12957505
+Generated: 47268336
+Search time: 612.381776495s
+Time to the final solution: 618.891519583s
+Kept: 14996358940
+Sent: 679370046169
+Dominated before closed: 123193372700
+Dominated after closed: 0
+Max expanded: 12974549
+Min expanded: 12944288
+Max received: 55384451
+Min received: 55200595
+Total time: 619.11100385s

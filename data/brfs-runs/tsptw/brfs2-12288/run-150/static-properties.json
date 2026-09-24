@@ -1,0 +1,12 @@
+{
+    "algorithm": "translate",
+    "domain": "OhlmannThomas",
+    "problem": "n150w160.001.txt",
+    "id": [
+        "translate",
+        "OhlmannThomas",
+        "n150w160.001.txt"
+    ],
+    "run": 150,
+    "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192"
+}

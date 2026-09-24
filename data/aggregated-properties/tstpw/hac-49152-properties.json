@@ -1,0 +1,4542 @@
+{
+    "hac-49152-GendreauDumasExtended-n80w160.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w160.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w160.001.txt"
+        ],
+        "run": 0,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w160.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 506.0,
+        "bound": 506.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 167707173,
+        "generated": 148565308,
+        "search_time": 8.338477892,
+        "total_time": 13.583967014,
+        "time_to_the_final_solution": 12.820074497,
+        "time_to_mpi_init": 4.41823603,
+        "time_to_init": 4.481401569,
+        "aah_p": null,
+        "kept": 13802,
+        "sent": 688084649,
+        "dominated_before_closed": 89258328,
+        "dominated_after_closed": 36979407,
+        "dual_bound_progress": [],
+        "max_expanded": 4182,
+        "min_expanded": 2641,
+        "max_received": 17318,
+        "min_received": 11399,
+        "cost": 506,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.115846577,
+                637.0
+            ],
+            [
+                2.124000183,
+                614.0
+            ],
+            [
+                2.151855477,
+                548.0
+            ],
+            [
+                2.152325877,
+                515.0
+            ],
+            [
+                2.197151341,
+                506.0
+            ],
+            [
+                8.337619276,
+                506.0
+            ]
+        ],
+        "total_assigned": 688098451,
+        "max_assigned": 17318
+    },
+    "hac-49152-GendreauDumasExtended-n100w160.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w160.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w160.002.txt"
+        ],
+        "run": 2,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w160.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 532.0,
+        "bound": 532.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 988868269,
+        "generated": 980892680,
+        "search_time": 13.075567261,
+        "total_time": 18.082999223,
+        "time_to_the_final_solution": 17.360435015,
+        "time_to_mpi_init": 4.217462007,
+        "time_to_init": 4.284576651,
+        "aah_p": null,
+        "kept": 89746,
+        "sent": 4413625951,
+        "dominated_before_closed": 517658217,
+        "dominated_after_closed": 94142403,
+        "dual_bound_progress": [],
+        "max_expanded": 22146,
+        "min_expanded": 18260,
+        "max_received": 96681,
+        "min_received": 83850,
+        "cost": 532,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                5.957417707,
+                738.0
+            ],
+            [
+                6.017589633,
+                555.0
+            ],
+            [
+                6.047776651,
+                551.0
+            ],
+            [
+                6.103321888,
+                542.0
+            ],
+            [
+                6.199308759,
+                532.0
+            ],
+            [
+                13.074229006,
+                532.0
+            ]
+        ],
+        "total_assigned": 4413715697,
+        "max_assigned": 96681
+    },
+    "hac-49152-GendreauDumasExtended-n80w180.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w180.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w180.001.txt"
+        ],
+        "run": 4,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w180.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 551.0,
+        "bound": 551.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 4089545659,
+        "generated": 3870258400,
+        "search_time": 17.187983042,
+        "total_time": 22.672201486,
+        "time_to_the_final_solution": 21.57066807,
+        "time_to_mpi_init": 4.300133746,
+        "time_to_init": 4.382463435,
+        "aah_p": null,
+        "kept": 213902,
+        "sent": 10530012171,
+        "dominated_before_closed": 1089204732,
+        "dominated_after_closed": 274469313,
+        "dual_bound_progress": [],
+        "max_expanded": 87212,
+        "min_expanded": 78494,
+        "max_received": 220687,
+        "min_received": 208668,
+        "cost": 551,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.022546232,
+                712.0
+            ],
+            [
+                7.074267184,
+                687.0
+            ],
+            [
+                7.121119205,
+                681.0
+            ],
+            [
+                7.205567918,
+                557.0
+            ],
+            [
+                7.339319845,
+                551.0
+            ],
+            [
+                17.186606258,
+                551.0
+            ]
+        ],
+        "total_assigned": 10530226073,
+        "max_assigned": 220688
+    },
+    "hac-49152-GendreauDumasExtended-n80w180.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w180.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w180.002.txt"
+        ],
+        "run": 7,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w180.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 479.0,
+        "bound": 479.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 2940427329,
+        "generated": 2897409430,
+        "search_time": 16.901743172,
+        "total_time": 22.401252135,
+        "time_to_the_final_solution": 21.331772467,
+        "time_to_mpi_init": 4.361095968,
+        "time_to_init": 4.429661971,
+        "aah_p": null,
+        "kept": 255222,
+        "sent": 12543697314,
+        "dominated_before_closed": 1414927371,
+        "dominated_after_closed": 221323499,
+        "dual_bound_progress": [],
+        "max_expanded": 65129,
+        "min_expanded": 54897,
+        "max_received": 263235,
+        "min_received": 246531,
+        "cost": 479,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.004095373,
+                761.0
+            ],
+            [
+                7.03340457,
+                730.0
+            ],
+            [
+                7.122014627,
+                631.0
+            ],
+            [
+                7.175136804,
+                522.0
+            ],
+            [
+                7.387321467,
+                514.0
+            ],
+            [
+                7.415765994,
+                509.0
+            ],
+            [
+                7.424790593,
+                479.0
+            ],
+            [
+                16.900403485,
+                479.0
+            ]
+        ],
+        "total_assigned": 12543952536,
+        "max_assigned": 263236
+    },
+    "hac-49152-GendreauDumasExtended-n80w160.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w160.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w160.004.txt"
+        ],
+        "run": 12,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w160.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 509.0,
+        "bound": 509.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 310594887,
+        "generated": 274726883,
+        "search_time": 8.063542383,
+        "total_time": 13.327127883,
+        "time_to_the_final_solution": 12.52153603,
+        "time_to_mpi_init": 4.399165419,
+        "time_to_init": 4.457776563,
+        "aah_p": null,
+        "kept": 30202,
+        "sent": 1465179378,
+        "dominated_before_closed": 177819722,
+        "dominated_after_closed": 66857296,
+        "dual_bound_progress": [],
+        "max_expanded": 7937,
+        "min_expanded": 5007,
+        "max_received": 33943,
+        "min_received": 25691,
+        "cost": 509,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.77958652,
+                711.0
+            ],
+            [
+                2.812562882,
+                512.0
+            ],
+            [
+                2.917737192,
+                509.0
+            ],
+            [
+                8.062479193,
+                509.0
+            ]
+        ],
+        "total_assigned": 1465209580,
+        "max_assigned": 33945
+    },
+    "hac-49152-GendreauDumasExtended-n100w140.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w140.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w140.005.txt"
+        ],
+        "run": 13,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w140.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 509.0,
+        "bound": 509.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 549382694,
+        "generated": 528561330,
+        "search_time": 10.716814564,
+        "total_time": 15.789325284,
+        "time_to_the_final_solution": 15.116884404,
+        "time_to_mpi_init": 4.309698985,
+        "time_to_init": 4.399817828,
+        "aah_p": null,
+        "kept": 51880,
+        "sent": 2583621995,
+        "dominated_before_closed": 314758130,
+        "dominated_after_closed": 60451312,
+        "dual_bound_progress": [],
+        "max_expanded": 12512,
+        "min_expanded": 9969,
+        "max_received": 57001,
+        "min_received": 48681,
+        "cost": 509,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                4.656767434,
+                764.0
+            ],
+            [
+                4.685488182,
+                752.0
+            ],
+            [
+                4.708705628,
+                510.0
+            ],
+            [
+                4.819521075,
+                509.0
+            ],
+            [
+                10.715589003,
+                509.0
+            ]
+        ],
+        "total_assigned": 2583673875,
+        "max_assigned": 57001
+    },
+    "hac-49152-GendreauDumasExtended-n100w140.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w140.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w140.003.txt"
+        ],
+        "run": 25,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w140.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 481.0,
+        "bound": 481.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 538416844,
+        "generated": 504453355,
+        "search_time": 10.184943378,
+        "total_time": 15.367469119,
+        "time_to_the_final_solution": 14.707212344,
+        "time_to_mpi_init": 4.41412531,
+        "time_to_init": 4.522018427,
+        "aah_p": null,
+        "kept": 49651,
+        "sent": 2433063506,
+        "dominated_before_closed": 277837615,
+        "dominated_after_closed": 75059791,
+        "dual_bound_progress": [],
+        "max_expanded": 11886,
+        "min_expanded": 9585,
+        "max_received": 54235,
+        "min_received": 45666,
+        "cost": 481,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                4.638097766,
+                808.0
+            ],
+            [
+                4.644827116,
+                736.0
+            ],
+            [
+                4.659942598,
+                522.0
+            ],
+            [
+                4.701050919,
+                491.0
+            ],
+            [
+                4.74023225,
+                481.0
+            ],
+            [
+                10.183624486,
+                481.0
+            ]
+        ],
+        "total_assigned": 2433113157,
+        "max_assigned": 54235
+    },
+    "hac-49152-GendreauDumasExtended-n80w180.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w180.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w180.003.txt"
+        ],
+        "run": 26,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w180.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 524.0,
+        "bound": 524.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 8998577120,
+        "generated": 8771733893,
+        "search_time": 21.618592585000002,
+        "total_time": 27.220736616,
+        "time_to_the_final_solution": 26.036557366,
+        "time_to_mpi_init": 4.354678602,
+        "time_to_init": 4.417750497,
+        "aah_p": null,
+        "kept": 496506,
+        "sent": 24434634815,
+        "dominated_before_closed": 2386351506,
+        "dominated_after_closed": 347896925,
+        "dual_bound_progress": [],
+        "max_expanded": 190068,
+        "min_expanded": 177913,
+        "max_received": 506196,
+        "min_received": 488968,
+        "cost": 524,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.09320562,
+                723.0
+            ],
+            [
+                7.108253683,
+                545.0
+            ],
+            [
+                7.325588892,
+                536.0
+            ],
+            [
+                7.373628722,
+                524.0
+            ],
+            [
+                21.616684088,
+                524.0
+            ]
+        ],
+        "total_assigned": 24435131321,
+        "max_assigned": 506209
+    },
+    "hac-49152-GendreauDumasExtended-n60w180.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w180.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w180.003.txt"
+        ],
+        "run": 27,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w180.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 445.0,
+        "bound": 445.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 266305593,
+        "generated": 252657174,
+        "search_time": 8.834759947,
+        "total_time": 13.878849442,
+        "time_to_the_final_solution": 13.318101655,
+        "time_to_mpi_init": 4.417955486,
+        "time_to_init": 4.483191723,
+        "aah_p": null,
+        "kept": 16364,
+        "sent": 800843462,
+        "dominated_before_closed": 78563770,
+        "dominated_after_closed": 23384284,
+        "dual_bound_progress": [],
+        "max_expanded": 5883,
+        "min_expanded": 4772,
+        "max_received": 18931,
+        "min_received": 14521,
+        "cost": 445,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.406619676,
+                601.0
+            ],
+            [
+                2.460452775,
+                445.0
+            ],
+            [
+                8.83403472,
+                445.0
+            ]
+        ],
+        "total_assigned": 800859826,
+        "max_assigned": 18931
+    },
+    "hac-49152-GendreauDumasExtended-n80w120.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w120.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w120.004.txt"
+        ],
+        "run": 29,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w120.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 501.0,
+        "bound": 501.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 330855259,
+        "generated": 321179005,
+        "search_time": 8.660095419,
+        "total_time": 13.611284215,
+        "time_to_the_final_solution": 13.025105487,
+        "time_to_mpi_init": 4.302037716,
+        "time_to_init": 4.364802886,
+        "aah_p": null,
+        "kept": 36179,
+        "sent": 1783923031,
+        "dominated_before_closed": 115395085,
+        "dominated_after_closed": 23303771,
+        "dual_bound_progress": [],
+        "max_expanded": 7329,
+        "min_expanded": 6158,
+        "max_received": 39811,
+        "min_received": 32592,
+        "cost": 501,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.345448634,
+                609.0
+            ],
+            [
+                3.395413473,
+                501.0
+            ],
+            [
+                8.659110824999999,
+                501.0
+            ]
+        ],
+        "total_assigned": 1783959210,
+        "max_assigned": 39811
+    },
+    "hac-49152-GendreauDumasExtended-n100w120.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w120.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w120.003.txt"
+        ],
+        "run": 31,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w120.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 617.0,
+        "bound": 617.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 222688672,
+        "generated": 197029404,
+        "search_time": 8.888335915999999,
+        "total_time": 14.117066453,
+        "time_to_the_final_solution": 13.333745112,
+        "time_to_mpi_init": 4.351301361,
+        "time_to_init": 4.445163961,
+        "aah_p": null,
+        "kept": 18294,
+        "sent": 895219191,
+        "dominated_before_closed": 106244169,
+        "dominated_after_closed": 43413704,
+        "dual_bound_progress": [],
+        "max_expanded": 5433,
+        "min_expanded": 3785,
+        "max_received": 20852,
+        "min_received": 15619,
+        "cost": 617,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.593763786,
+                630.0
+            ],
+            [
+                2.626180977,
+                617.0
+            ],
+            [
+                8.887128591,
+                617.0
+            ]
+        ],
+        "total_assigned": 895237485,
+        "max_assigned": 20852
+    },
+    "hac-49152-GendreauDumasExtended-n100w140.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w140.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w140.001.txt"
+        ],
+        "run": 35,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w140.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 604.0,
+        "bound": 604.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 5454154302,
+        "generated": 5470379568,
+        "search_time": 20.470021142,
+        "total_time": 25.972461108,
+        "time_to_the_final_solution": 24.85853194,
+        "time_to_mpi_init": 4.291509995,
+        "time_to_init": 4.388252702,
+        "aah_p": null,
+        "kept": 453897,
+        "sent": 22319091278,
+        "dominated_before_closed": 2481937727,
+        "dominated_after_closed": 257819000,
+        "dual_bound_progress": [],
+        "max_expanded": 118778,
+        "min_expanded": 106369,
+        "max_received": 466807,
+        "min_received": 442286,
+        "cost": 604,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.493026302,
+                606.0
+            ],
+            [
+                7.672290762,
+                604.0
+            ],
+            [
+                20.468229477,
+                604.0
+            ]
+        ],
+        "total_assigned": 22319545175,
+        "max_assigned": 466821
+    },
+    "hac-49152-GendreauDumasExtended-n80w180.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w180.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w180.005.txt"
+        ],
+        "run": 36,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w180.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 470.0,
+        "bound": 470.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 2372090846,
+        "generated": 2332043379,
+        "search_time": 16.158999136,
+        "total_time": 21.663379455,
+        "time_to_the_final_solution": 20.661050915,
+        "time_to_mpi_init": 4.390609748,
+        "time_to_init": 4.501803299,
+        "aah_p": null,
+        "kept": 265982,
+        "sent": 13136582708,
+        "dominated_before_closed": 906520537,
+        "dominated_after_closed": 216275502,
+        "dual_bound_progress": [],
+        "max_expanded": 54690,
+        "min_expanded": 43423,
+        "max_received": 279293,
+        "min_received": 255941,
+        "cost": 470,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.055480596,
+                715.0
+            ],
+            [
+                7.067353325,
+                596.0
+            ],
+            [
+                7.1502053,
+                531.0
+            ],
+            [
+                7.177552507,
+                499.0
+            ],
+            [
+                7.329549433,
+                481.0
+            ],
+            [
+                7.335533434,
+                480.0
+            ],
+            [
+                7.339333558,
+                479.0
+            ],
+            [
+                7.556640591,
+                472.0
+            ],
+            [
+                7.579004272,
+                470.0
+            ],
+            [
+                16.157449554,
+                470.0
+            ]
+        ],
+        "total_assigned": 13136848690,
+        "max_assigned": 279296
+    },
+    "hac-49152-GendreauDumasExtended-n60w180.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w180.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w180.005.txt"
+        ],
+        "run": 40,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w180.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 395.0,
+        "bound": 395.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 991926555,
+        "generated": 957610743,
+        "search_time": 10.721622575,
+        "total_time": 15.927801163,
+        "time_to_the_final_solution": 15.22578227,
+        "time_to_mpi_init": 4.450820434,
+        "time_to_init": 4.5040093169999995,
+        "aah_p": null,
+        "kept": 62355,
+        "sent": 3075598310,
+        "dominated_before_closed": 285956183,
+        "dominated_after_closed": 64089744,
+        "dual_bound_progress": [],
+        "max_expanded": 22000,
+        "min_expanded": 18496,
+        "max_received": 66394,
+        "min_received": 58903,
+        "cost": 395,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                4.96900344,
+                496.0
+            ],
+            [
+                5.026869323,
+                431.0
+            ],
+            [
+                5.0427513,
+                395.0
+            ],
+            [
+                10.720496854,
+                395.0
+            ]
+        ],
+        "total_assigned": 3075660665,
+        "max_assigned": 66394
+    },
+    "hac-49152-GendreauDumasExtended-n100w140.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w140.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w140.004.txt"
+        ],
+        "run": 42,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w140.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 533.0,
+        "bound": 533.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 403940915,
+        "generated": 397982346,
+        "search_time": 10.009097148,
+        "total_time": 15.161816832,
+        "time_to_the_final_solution": 14.525435365,
+        "time_to_mpi_init": 4.41152405,
+        "time_to_init": 4.516086265,
+        "aah_p": null,
+        "kept": 37770,
+        "sent": 1881288413,
+        "dominated_before_closed": 181762285,
+        "dominated_after_closed": 36865977,
+        "dual_bound_progress": [],
+        "max_expanded": 8895,
+        "min_expanded": 7519,
+        "max_received": 42049,
+        "min_received": 34529,
+        "cost": 533,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.994766395,
+                791.0
+            ],
+            [
+                4.018541118,
+                771.0
+            ],
+            [
+                4.022326579,
+                588.0
+            ],
+            [
+                4.031473112,
+                544.0
+            ],
+            [
+                4.035967961,
+                536.0
+            ],
+            [
+                4.083078956,
+                533.0
+            ],
+            [
+                10.00778951,
+                533.0
+            ]
+        ],
+        "total_assigned": 1881326183,
+        "max_assigned": 42049
+    },
+    "hac-49152-GendreauDumasExtended-n60w180.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w180.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w180.002.txt"
+        ],
+        "run": 46,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w180.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 399.0,
+        "bound": 399.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 130246024,
+        "generated": 116395926,
+        "search_time": 8.034122488,
+        "total_time": 13.175084383,
+        "time_to_the_final_solution": 12.416364116,
+        "time_to_mpi_init": 4.295993632,
+        "time_to_init": 4.382081932,
+        "aah_p": null,
+        "kept": 9075,
+        "sent": 440627742,
+        "dominated_before_closed": 51092639,
+        "dominated_after_closed": 20965446,
+        "dual_bound_progress": [],
+        "max_expanded": 3264,
+        "min_expanded": 2109,
+        "max_received": 10723,
+        "min_received": 7411,
+        "cost": 399,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                1.872609901,
+                576.0
+            ],
+            [
+                1.877795717,
+                518.0
+            ],
+            [
+                1.903889491,
+                501.0
+            ],
+            [
+                1.922022416,
+                416.0
+            ],
+            [
+                1.924756965,
+                405.0
+            ],
+            [
+                1.968652157,
+                399.0
+            ],
+            [
+                8.033307153,
+                399.0
+            ]
+        ],
+        "total_assigned": 440636817,
+        "max_assigned": 10723
+    },
+    "hac-49152-GendreauDumasExtended-n80w160.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w160.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w160.003.txt"
+        ],
+        "run": 47,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w160.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 521.0,
+        "bound": 521.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 1293668130,
+        "generated": 1271291412,
+        "search_time": 14.401096548,
+        "total_time": 19.547048779,
+        "time_to_the_final_solution": 18.676523811,
+        "time_to_mpi_init": 4.183179168,
+        "time_to_init": 4.275217752,
+        "aah_p": null,
+        "kept": 116818,
+        "sent": 5740224863,
+        "dominated_before_closed": 584505366,
+        "dominated_after_closed": 104644512,
+        "dual_bound_progress": [],
+        "max_expanded": 28957,
+        "min_expanded": 23834,
+        "max_received": 123432,
+        "min_received": 110269,
+        "cost": 521,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                6.660854414,
+                721.0
+            ],
+            [
+                6.689357782,
+                667.0
+            ],
+            [
+                6.722460764,
+                538.0
+            ],
+            [
+                6.758483053,
+                521.0
+            ],
+            [
+                14.399903988,
+                521.0
+            ]
+        ],
+        "total_assigned": 5740341681,
+        "max_assigned": 123435
+    },
+    "hac-49152-GendreauDumasExtended-n80w200.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w200.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w200.005.txt"
+        ],
+        "run": 49,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w200.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 298.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 228627064514,
+        "generated": 431274006937,
+        "search_time": 309.260171007,
+        "total_time": 321.925146704,
+        "time_to_the_final_solution": 313.745821357,
+        "time_to_mpi_init": 4.387893534,
+        "time_to_init": 4.485433818,
+        "aah_p": null,
+        "kept": 28485710,
+        "sent": 1400583142315,
+        "dominated_before_closed": 133535056070,
+        "dominated_after_closed": 9007302770,
+        "dual_bound_progress": [],
+        "max_expanded": 5032344,
+        "min_expanded": 3714159,
+        "max_received": 28605278,
+        "min_received": 28392990,
+        "cost": 439,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.101026622,
+                567.0
+            ],
+            [
+                7.172817231,
+                502.0
+            ],
+            [
+                7.247594945,
+                459.0
+            ],
+            [
+                7.397066136,
+                443.0
+            ],
+            [
+                7.650014996999999,
+                439.0
+            ],
+            [
+                309.25844313,
+                439.0
+            ]
+        ],
+        "total_assigned": 1400611628025,
+        "max_assigned": 28605877
+    },
+    "hac-49152-GendreauDumasExtended-n80w200.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w200.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w200.002.txt"
+        ],
+        "run": 54,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w200.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 488.0,
+        "bound": 488.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 60505656121,
+        "generated": 62372682448,
+        "search_time": 121.288478267,
+        "total_time": 127.602631908,
+        "time_to_the_final_solution": 125.845246202,
+        "time_to_mpi_init": 4.467685058,
+        "time_to_init": 4.556544474,
+        "aah_p": null,
+        "kept": 6146348,
+        "sent": 301680195702,
+        "dominated_before_closed": 35230831027,
+        "dominated_after_closed": 3299393332,
+        "dual_bound_progress": [],
+        "max_expanded": 1292838,
+        "min_expanded": 1188935,
+        "max_received": 6178690,
+        "min_received": 6094179,
+        "cost": 488,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.157972474,
+                683.0
+            ],
+            [
+                7.208843674,
+                611.0
+            ],
+            [
+                7.236685927,
+                502.0
+            ],
+            [
+                7.432727561,
+                492.0
+            ],
+            [
+                7.518946023,
+                488.0
+            ],
+            [
+                121.286783749,
+                488.0
+            ]
+        ],
+        "total_assigned": 301686342050,
+        "max_assigned": 6178808
+    },
+    "hac-49152-GendreauDumasExtended-n80w200.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w200.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w200.001.txt"
+        ],
+        "run": 59,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w200.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 290.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 288257863878,
+        "generated": 363182540875,
+        "search_time": 307.876592739,
+        "total_time": 319.51630299,
+        "time_to_the_final_solution": 312.153099336,
+        "time_to_mpi_init": 4.211897106,
+        "time_to_init": 4.276274202,
+        "aah_p": null,
+        "kept": 20628883,
+        "sent": 1014000476864,
+        "dominated_before_closed": 97543514820,
+        "dominated_after_closed": 11206618159,
+        "dual_bound_progress": [],
+        "max_expanded": 6445710,
+        "min_expanded": 4539054,
+        "max_received": 20686798,
+        "min_received": 20569532,
+        "cost": 490,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.180391484,
+                652.0
+            ],
+            [
+                7.188885099,
+                493.0
+            ],
+            [
+                7.413285931,
+                490.0
+            ],
+            [
+                307.87494431,
+                490.0
+            ]
+        ],
+        "total_assigned": 1014021105747,
+        "max_assigned": 20687199
+    },
+    "hac-49152-GendreauDumasExtended-n80w200.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w200.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w200.004.txt"
+        ],
+        "run": 63,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w200.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 526.0,
+        "bound": 526.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 3598352994,
+        "generated": 3600381284,
+        "search_time": 17.148904253,
+        "total_time": 22.657611272,
+        "time_to_the_final_solution": 21.592076975,
+        "time_to_mpi_init": 4.369228352,
+        "time_to_init": 4.44295604,
+        "aah_p": null,
+        "kept": 305047,
+        "sent": 15026726098,
+        "dominated_before_closed": 1466302379,
+        "dominated_after_closed": 229572293,
+        "dual_bound_progress": [],
+        "max_expanded": 81894,
+        "min_expanded": 67796,
+        "max_received": 316102,
+        "min_received": 295500,
+        "cost": 526,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.119801688,
+                767.0
+            ],
+            [
+                7.127759179,
+                738.0
+            ],
+            [
+                7.144647833,
+                592.0
+            ],
+            [
+                7.163771797,
+                559.0
+            ],
+            [
+                7.301897437,
+                557.0
+            ],
+            [
+                7.321245869,
+                540.0
+            ],
+            [
+                7.401590027,
+                535.0
+            ],
+            [
+                7.4024669,
+                526.0
+            ],
+            [
+                17.146901479,
+                526.0
+            ]
+        ],
+        "total_assigned": 15027031145,
+        "max_assigned": 316110
+    },
+    "hac-49152-GendreauDumasExtended-n100w160.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w160.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w160.003.txt"
+        ],
+        "run": 69,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w160.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 495.0,
+        "bound": 495.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 4684679805,
+        "generated": 4694218450,
+        "search_time": 18.368256315,
+        "total_time": 23.857521784,
+        "time_to_the_final_solution": 22.75511693,
+        "time_to_mpi_init": 4.275253328,
+        "time_to_init": 4.386491777,
+        "aah_p": null,
+        "kept": 526833,
+        "sent": 25928629971,
+        "dominated_before_closed": 1895483802,
+        "dominated_after_closed": 255322822,
+        "dual_bound_progress": [],
+        "max_expanded": 103108,
+        "min_expanded": 90430,
+        "max_received": 544573,
+        "min_received": 510158,
+        "cost": 495,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.228608345,
+                787.0
+            ],
+            [
+                7.248834049,
+                754.0
+            ],
+            [
+                7.250772733,
+                715.0
+            ],
+            [
+                7.300607261,
+                511.0
+            ],
+            [
+                7.362604337,
+                503.0
+            ],
+            [
+                7.44338218,
+                500.0
+            ],
+            [
+                7.465852142,
+                497.0
+            ],
+            [
+                7.498977845,
+                495.0
+            ],
+            [
+                18.366763189,
+                495.0
+            ]
+        ],
+        "total_assigned": 25929156804,
+        "max_assigned": 544586
+    },
+    "hac-49152-GendreauDumasExtended-n60w200.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w200.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w200.005.txt"
+        ],
+        "run": 72,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w200.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 427.0,
+        "bound": 427.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 4268223575,
+        "generated": 4255688577,
+        "search_time": 17.269816734,
+        "total_time": 22.990204571,
+        "time_to_the_final_solution": 21.809929465,
+        "time_to_mpi_init": 4.481194145,
+        "time_to_init": 4.539916615,
+        "aah_p": null,
+        "kept": 331249,
+        "sent": 16265464986,
+        "dominated_before_closed": 1656976706,
+        "dominated_after_closed": 177829151,
+        "dual_bound_progress": [],
+        "max_expanded": 93315,
+        "min_expanded": 83122,
+        "max_received": 338927,
+        "min_received": 322493,
+        "cost": 427,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.205669837,
+                619.0
+            ],
+            [
+                7.24316009,
+                613.0
+            ],
+            [
+                7.262662491,
+                595.0
+            ],
+            [
+                7.270082486,
+                559.0
+            ],
+            [
+                7.340986234,
+                436.0
+            ],
+            [
+                7.371900486,
+                427.0
+            ],
+            [
+                17.268554836,
+                427.0
+            ]
+        ],
+        "total_assigned": 16265796235,
+        "max_assigned": 338931
+    },
+    "hac-49152-GendreauDumasExtended-n60w200.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w200.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w200.002.txt"
+        ],
+        "run": 73,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w200.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 414.0,
+        "bound": 414.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 636846344,
+        "generated": 622134249,
+        "search_time": 9.872017324,
+        "total_time": 14.997874237,
+        "time_to_the_final_solution": 14.29857,
+        "time_to_mpi_init": 4.368277821,
+        "time_to_init": 4.426375949,
+        "aah_p": null,
+        "kept": 50152,
+        "sent": 2479451033,
+        "dominated_before_closed": 198506266,
+        "dominated_after_closed": 49971514,
+        "dual_bound_progress": [],
+        "max_expanded": 14151,
+        "min_expanded": 11634,
+        "max_received": 55832,
+        "min_received": 46115,
+        "cost": 414,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.921768516,
+                566.0
+            ],
+            [
+                3.934464867,
+                563.0
+            ],
+            [
+                3.976646941,
+                532.0
+            ],
+            [
+                3.97966853,
+                434.0
+            ],
+            [
+                3.981378888,
+                414.0
+            ],
+            [
+                9.870984385,
+                414.0
+            ]
+        ],
+        "total_assigned": 2479501185,
+        "max_assigned": 55832
+    },
+    "hac-49152-GendreauDumasExtended-n80w160.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w160.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w160.002.txt"
+        ],
+        "run": 75,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w160.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 549.0,
+        "bound": 549.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 3560099565,
+        "generated": 3492998066,
+        "search_time": 18.292259223,
+        "total_time": 23.876116138,
+        "time_to_the_final_solution": 22.74308116,
+        "time_to_mpi_init": 4.35521118,
+        "time_to_init": 4.450608036,
+        "aah_p": null,
+        "kept": 383716,
+        "sent": 18855864145,
+        "dominated_before_closed": 1550273190,
+        "dominated_after_closed": 225613805,
+        "dual_bound_progress": [],
+        "max_expanded": 77811,
+        "min_expanded": 68032,
+        "max_received": 394184,
+        "min_received": 371786,
+        "cost": 549,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.041970155,
+                748.0
+            ],
+            [
+                7.042933998,
+                706.0
+            ],
+            [
+                7.080805536,
+                690.0
+            ],
+            [
+                7.135839215,
+                577.0
+            ],
+            [
+                7.215390677,
+                563.0
+            ],
+            [
+                7.252244405,
+                552.0
+            ],
+            [
+                7.311224631,
+                549.0
+            ],
+            [
+                18.290915861,
+                549.0
+            ]
+        ],
+        "total_assigned": 18856247861,
+        "max_assigned": 394192
+    },
+    "hac-49152-GendreauDumasExtended-n60w200.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w200.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w200.003.txt"
+        ],
+        "run": 76,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w200.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 455.0,
+        "bound": 455.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 1533728492,
+        "generated": 1540244083,
+        "search_time": 15.182636501,
+        "total_time": 20.489283388,
+        "time_to_the_final_solution": 19.577066389,
+        "time_to_mpi_init": 4.34961665,
+        "time_to_init": 4.394270276,
+        "aah_p": null,
+        "kept": 120503,
+        "sent": 5969496305,
+        "dominated_before_closed": 857113776,
+        "dominated_after_closed": 91629087,
+        "dual_bound_progress": [],
+        "max_expanded": 33925,
+        "min_expanded": 28924,
+        "max_received": 126132,
+        "min_received": 116097,
+        "cost": 455,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                6.905230059,
+                625.0
+            ],
+            [
+                6.917972533,
+                505.0
+            ],
+            [
+                6.942508108,
+                463.0
+            ],
+            [
+                6.9706592480000005,
+                457.0
+            ],
+            [
+                6.971770859,
+                455.0
+            ],
+            [
+                15.181710308,
+                455.0
+            ]
+        ],
+        "total_assigned": 5969616808,
+        "max_assigned": 126132
+    },
+    "hac-49152-GendreauDumasExtended-n100w160.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w160.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w160.005.txt"
+        ],
+        "run": 77,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w160.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 586.0,
+        "bound": 586.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 500729595,
+        "generated": 469980109,
+        "search_time": 9.223710122,
+        "total_time": 14.406755247,
+        "time_to_the_final_solution": 13.734780148,
+        "time_to_mpi_init": 4.402249461,
+        "time_to_init": 4.5108209299999995,
+        "aah_p": null,
+        "kept": 44868,
+        "sent": 2227534010,
+        "dominated_before_closed": 292142802,
+        "dominated_after_closed": 87976617,
+        "dual_bound_progress": [],
+        "max_expanded": 12301,
+        "min_expanded": 8591,
+        "max_received": 50606,
+        "min_received": 40567,
+        "cost": 586,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.770709728,
+                888.0
+            ],
+            [
+                3.771948183,
+                838.0
+            ],
+            [
+                3.841497034,
+                636.0
+            ],
+            [
+                3.842479085,
+                586.0
+            ],
+            [
+                9.222528658,
+                586.0
+            ]
+        ],
+        "total_assigned": 2227578878,
+        "max_assigned": 50608
+    },
+    "hac-49152-GendreauDumasExtended-n100w120.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w120.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w120.005.txt"
+        ],
+        "run": 83,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w120.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 537.0,
+        "bound": 537.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 277803122,
+        "generated": 261908967,
+        "search_time": 8.48820087,
+        "total_time": 13.705850408,
+        "time_to_the_final_solution": 12.906472636,
+        "time_to_mpi_init": 4.332668677,
+        "time_to_init": 4.418018612,
+        "aah_p": null,
+        "kept": 28971,
+        "sent": 1418873263,
+        "dominated_before_closed": 184174017,
+        "dominated_after_closed": 50287097,
+        "dual_bound_progress": [],
+        "max_expanded": 6400,
+        "min_expanded": 4828,
+        "max_received": 32472,
+        "min_received": 25621,
+        "cost": 537,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.952887637,
+                786.0
+            ],
+            [
+                2.966675416,
+                546.0
+            ],
+            [
+                3.00093101,
+                537.0
+            ],
+            [
+                8.486847857,
+                537.0
+            ]
+        ],
+        "total_assigned": 1418902234,
+        "max_assigned": 32472
+    },
+    "hac-49152-GendreauDumasExtended-n100w140.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w140.002.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w140.002.txt"
+        ],
+        "run": 87,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w140.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 615.0,
+        "bound": 615.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 323138948,
+        "generated": 303883504,
+        "search_time": 8.228617408,
+        "total_time": 13.21436664,
+        "time_to_the_final_solution": 12.680448643,
+        "time_to_mpi_init": 4.331174292,
+        "time_to_init": 4.451470435,
+        "aah_p": null,
+        "kept": 26267,
+        "sent": 1290741287,
+        "dominated_before_closed": 125779857,
+        "dominated_after_closed": 40881271,
+        "dual_bound_progress": [],
+        "max_expanded": 7201,
+        "min_expanded": 5945,
+        "max_received": 29331,
+        "min_received": 23214,
+        "cost": 615,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.109997245,
+                635.0
+            ],
+            [
+                3.113141737,
+                615.0
+            ],
+            [
+                8.227328883,
+                615.0
+            ]
+        ],
+        "total_assigned": 1290767554,
+        "max_assigned": 29331
+    },
+    "hac-49152-GendreauDumasExtended-n80w160.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w160.005.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w160.005.txt"
+        ],
+        "run": 88,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w160.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 439.0,
+        "bound": 439.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 374893089,
+        "generated": 361309348,
+        "search_time": 9.211375307,
+        "total_time": 14.229505925,
+        "time_to_the_final_solution": 13.622464443,
+        "time_to_mpi_init": 4.333733845,
+        "time_to_init": 4.410893703,
+        "aah_p": null,
+        "kept": 33690,
+        "sent": 1674925698,
+        "dominated_before_closed": 191206077,
+        "dominated_after_closed": 44529656,
+        "dual_bound_progress": [],
+        "max_expanded": 8837,
+        "min_expanded": 6806,
+        "max_received": 37428,
+        "min_received": 30881,
+        "cost": 439,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.576379228,
+                680.0
+            ],
+            [
+                3.578750816,
+                617.0
+            ],
+            [
+                3.638915905,
+                477.0
+            ],
+            [
+                3.645096135,
+                455.0
+            ],
+            [
+                3.647930703,
+                439.0
+            ],
+            [
+                9.210416242,
+                439.0
+            ]
+        ],
+        "total_assigned": 1674959388,
+        "max_assigned": 37428
+    },
+    "hac-49152-GendreauDumasExtended-n100w160.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w160.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w160.001.txt"
+        ],
+        "run": 96,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w160.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 582.0,
+        "bound": 582.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 982826529,
+        "generated": 945765458,
+        "search_time": 11.722454583,
+        "total_time": 16.888170139,
+        "time_to_the_final_solution": 16.180031971,
+        "time_to_mpi_init": 4.353106821,
+        "time_to_init": 4.457331251,
+        "aah_p": null,
+        "kept": 74368,
+        "sent": 3676151525,
+        "dominated_before_closed": 399570585,
+        "dominated_after_closed": 97451611,
+        "dual_bound_progress": [],
+        "max_expanded": 21659,
+        "min_expanded": 18255,
+        "max_received": 80471,
+        "min_received": 69219,
+        "cost": 582,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                5.771455622,
+                883.0
+            ],
+            [
+                5.779479224,
+                735.0
+            ],
+            [
+                5.7886864540000005,
+                619.0
+            ],
+            [
+                5.853114648,
+                582.0
+            ],
+            [
+                11.721141536,
+                582.0
+            ]
+        ],
+        "total_assigned": 3676225893,
+        "max_assigned": 80480
+    },
+    "hac-49152-GendreauDumasExtended-n80w200.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w200.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w200.003.txt"
+        ],
+        "run": 97,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w200.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 464.0,
+        "bound": 464.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 68612166203,
+        "generated": 66567883117,
+        "search_time": 98.865094992,
+        "total_time": 105.021144149,
+        "time_to_the_final_solution": 103.295366311,
+        "time_to_mpi_init": 4.36133676,
+        "time_to_init": 4.430026905,
+        "aah_p": null,
+        "kept": 4949442,
+        "sent": 243381347815,
+        "dominated_before_closed": 15202319481,
+        "dominated_after_closed": 3985811979,
+        "dual_bound_progress": [],
+        "max_expanded": 1450158,
+        "min_expanded": 1350477,
+        "max_received": 4991526,
+        "min_received": 4910782,
+        "cost": 464,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.110730569,
+                699.0
+            ],
+            [
+                7.139810532,
+                635.0
+            ],
+            [
+                7.203459255,
+                609.0
+            ],
+            [
+                7.288795085,
+                478.0
+            ],
+            [
+                7.3704632,
+                464.0
+            ],
+            [
+                98.862351183,
+                464.0
+            ]
+        ],
+        "total_assigned": 243386297257,
+        "max_assigned": 4991609
+    },
+    "hac-49152-GendreauDumasExtended-n60w200.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w200.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w200.004.txt"
+        ],
+        "run": 104,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w200.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 431.0,
+        "bound": 431.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 750110203,
+        "generated": 750397512,
+        "search_time": 10.842288777,
+        "total_time": 16.097360458,
+        "time_to_the_final_solution": 15.378492483,
+        "time_to_mpi_init": 4.469182298,
+        "time_to_init": 4.536056021,
+        "aah_p": null,
+        "kept": 77002,
+        "sent": 3791768443,
+        "dominated_before_closed": 278751631,
+        "dominated_after_closed": 51274443,
+        "dual_bound_progress": [],
+        "max_expanded": 16731,
+        "min_expanded": 14056,
+        "max_received": 84046,
+        "min_received": 70427,
+        "cost": 431,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                4.830123776,
+                625.0
+            ],
+            [
+                4.83835411,
+                506.0
+            ],
+            [
+                4.881433032,
+                457.0
+            ],
+            [
+                4.967656179,
+                431.0
+            ],
+            [
+                10.841572551,
+                431.0
+            ]
+        ],
+        "total_assigned": 3791845445,
+        "max_assigned": 84046
+    },
+    "hac-49152-GendreauDumasExtended-n100w160.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n100w160.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n100w160.004.txt"
+        ],
+        "run": 105,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n100w160.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 580.0,
+        "bound": 580.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 2869545170,
+        "generated": 2745238541,
+        "search_time": 18.959762037,
+        "total_time": 24.633174338,
+        "time_to_the_final_solution": 23.494134145,
+        "time_to_mpi_init": 4.414507908,
+        "time_to_init": 4.534105484,
+        "aah_p": null,
+        "kept": 184350,
+        "sent": 9050705388,
+        "dominated_before_closed": 989532215,
+        "dominated_after_closed": 204770938,
+        "dual_bound_progress": [],
+        "max_expanded": 62593,
+        "min_expanded": 54677,
+        "max_received": 190178,
+        "min_received": 177900,
+        "cost": 580,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.170334503,
+                741.0
+            ],
+            [
+                7.227019033,
+                581.0
+            ],
+            [
+                7.448855961,
+                580.0
+            ],
+            [
+                18.958382738,
+                580.0
+            ]
+        ],
+        "total_assigned": 9050889738,
+        "max_assigned": 190184
+    },
+    "hac-49152-GendreauDumasExtended-n80w140.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w140.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w140.001.txt"
+        ],
+        "run": 112,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w140.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 512.0,
+        "bound": 512.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 160584395,
+        "generated": 149975655,
+        "search_time": 8.189193378,
+        "total_time": 13.785180374,
+        "time_to_the_final_solution": 12.690398464,
+        "time_to_mpi_init": 4.401376867,
+        "time_to_init": 4.501002957,
+        "aah_p": null,
+        "kept": 11148,
+        "sent": 546180112,
+        "dominated_before_closed": 67355631,
+        "dominated_after_closed": 21489623,
+        "dual_bound_progress": [],
+        "max_expanded": 3795,
+        "min_expanded": 2764,
+        "max_received": 13090,
+        "min_received": 9407,
+        "cost": 512,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                1.972448603,
+                655.0
+            ],
+            [
+                1.982945566,
+                654.0
+            ],
+            [
+                1.983785664,
+                653.0
+            ],
+            [
+                1.987332496,
+                644.0
+            ],
+            [
+                2.019505392,
+                517.0
+            ],
+            [
+                2.039299791,
+                512.0
+            ],
+            [
+                8.188254469,
+                512.0
+            ]
+        ],
+        "total_assigned": 546191260,
+        "max_assigned": 13090
+    },
+    "hac-49152-GendreauDumasExtended-n60w160.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w160.003.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w160.003.txt"
+        ],
+        "run": 114,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w160.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 434.0,
+        "bound": 434.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 1158106779,
+        "generated": 1188677858,
+        "search_time": 13.748394951,
+        "total_time": 19.089111795,
+        "time_to_the_final_solution": 18.244402256,
+        "time_to_mpi_init": 4.431963692,
+        "time_to_init": 4.495788213,
+        "aah_p": null,
+        "kept": 127119,
+        "sent": 6243847145,
+        "dominated_before_closed": 537090414,
+        "dominated_after_closed": 48469873,
+        "dual_bound_progress": [],
+        "max_expanded": 26116,
+        "min_expanded": 22014,
+        "max_received": 134467,
+        "min_received": 120180,
+        "cost": 434,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                6.396906319,
+                521.0
+            ],
+            [
+                6.42474692,
+                506.0
+            ],
+            [
+                6.426849187,
+                483.0
+            ],
+            [
+                6.460847604,
+                468.0
+            ],
+            [
+                6.572897473,
+                434.0
+            ],
+            [
+                13.747262917,
+                434.0
+            ]
+        ],
+        "total_assigned": 6243974264,
+        "max_assigned": 134471
+    },
+    "hac-49152-GendreauDumasExtended-n60w200.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n60w200.001.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n60w200.001.txt"
+        ],
+        "run": 124,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n60w200.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 410.0,
+        "bound": 410.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 453060319,
+        "generated": 430625158,
+        "search_time": 8.970907497,
+        "total_time": 14.098837229,
+        "time_to_the_final_solution": 13.498654691,
+        "time_to_mpi_init": 4.456416196,
+        "time_to_init": 4.527583525,
+        "aah_p": null,
+        "kept": 29494,
+        "sent": 1487323624,
+        "dominated_before_closed": 171584358,
+        "dominated_after_closed": 43715377,
+        "dual_bound_progress": [],
+        "max_expanded": 10437,
+        "min_expanded": 8186,
+        "max_received": 33219,
+        "min_received": 27618,
+        "cost": 410,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                3.473450095,
+                518.0
+            ],
+            [
+                3.507163555,
+                500.0
+            ],
+            [
+                3.52229757,
+                444.0
+            ],
+            [
+                3.524957072,
+                432.0
+            ],
+            [
+                3.531373681,
+                410.0
+            ],
+            [
+                8.969894052,
+                410.0
+            ]
+        ],
+        "total_assigned": 1487353118,
+        "max_assigned": 33222
+    },
+    "hac-49152-GendreauDumasExtended-n80w180.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "GendreauDumasExtended",
+        "problem": "n80w180.004.txt",
+        "id": [
+            "hac-49152",
+            "GendreauDumasExtended",
+            "n80w180.004.txt"
+        ],
+        "run": 128,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/GendreauDumasExtended/n80w180.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 479.0,
+        "bound": 479.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 5692150211,
+        "generated": 5751159497,
+        "search_time": 21.099493272,
+        "total_time": 26.698814379,
+        "time_to_the_final_solution": 25.567171201,
+        "time_to_mpi_init": 4.380766385,
+        "time_to_init": 4.467440441,
+        "aah_p": null,
+        "kept": 575222,
+        "sent": 28316815119,
+        "dominated_before_closed": 2734965314,
+        "dominated_after_closed": 378302378,
+        "dual_bound_progress": [],
+        "max_expanded": 123797,
+        "min_expanded": 109235,
+        "max_received": 595088,
+        "min_received": 558782,
+        "cost": 479,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.026251822,
+                681.0
+            ],
+            [
+                7.124618959,
+                656.0
+            ],
+            [
+                7.1707814,
+                505.0
+            ],
+            [
+                7.195145255,
+                480.0
+            ],
+            [
+                7.419382827,
+                479.0
+            ],
+            [
+                21.098210395,
+                479.0
+            ]
+        ],
+        "total_assigned": 28317390341,
+        "max_assigned": 595095
+    },
+    "hac-49152-OhlmannThomas-n150w140.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w140.005.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w140.005.txt"
+        ],
+        "run": 130,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w140.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 341.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 119423175519,
+        "generated": 273747601496,
+        "search_time": 307.641372681,
+        "total_time": 318.969413395,
+        "time_to_the_final_solution": 312.369759554,
+        "time_to_mpi_init": 4.478465083,
+        "time_to_init": 4.727998823,
+        "aah_p": null,
+        "kept": 17238991,
+        "sent": 847730631291,
+        "dominated_before_closed": 109348608443,
+        "dominated_after_closed": 5143409950,
+        "dual_bound_progress": [],
+        "max_expanded": 2623512,
+        "min_expanded": 1880035,
+        "max_received": 17305527,
+        "min_received": 17196265,
+        "cost": 663,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.847755268,
+                704.0
+            ],
+            [
+                8.482674775,
+                666.0
+            ],
+            [
+                8.945026884,
+                663.0
+            ],
+            [
+                307.635677931,
+                663.0
+            ]
+        ],
+        "total_assigned": 847747870282,
+        "max_assigned": 17305845
+    },
+    "hac-49152-OhlmannThomas-n200w140.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w140.001.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w140.001.txt"
+        ],
+        "run": 131,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w140.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 403.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 74444477904,
+        "generated": 212142139783,
+        "search_time": 307.786117739,
+        "total_time": 317.017556624,
+        "time_to_the_final_solution": 312.435826781,
+        "time_to_mpi_init": 4.3621489,
+        "time_to_init": 4.649103153,
+        "aah_p": null,
+        "kept": 12030937,
+        "sent": 591157772675,
+        "dominated_before_closed": 67215741292,
+        "dominated_after_closed": 3828262990,
+        "dual_bound_progress": [],
+        "max_expanded": 1643935,
+        "min_expanded": 994246,
+        "max_received": 12082786,
+        "min_received": 11981611,
+        "cost": 834,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.254883489,
+                1166.0
+            ],
+            [
+                9.308934577,
+                1148.0
+            ],
+            [
+                9.343070156,
+                1145.0
+            ],
+            [
+                10.105047261,
+                916.0
+            ],
+            [
+                10.443092688,
+                909.0
+            ],
+            [
+                11.055439592,
+                905.0
+            ],
+            [
+                11.776959834,
+                898.0
+            ],
+            [
+                12.392408106,
+                897.0
+            ],
+            [
+                13.002372879,
+                871.0
+            ],
+            [
+                13.805069388,
+                864.0
+            ],
+            [
+                14.341250389,
+                861.0
+            ],
+            [
+                14.59674505,
+                842.0
+            ],
+            [
+                16.131558012,
+                839.0
+            ],
+            [
+                16.210101151,
+                834.0
+            ],
+            [
+                307.780523522,
+                834.0
+            ]
+        ],
+        "total_assigned": 591169803612,
+        "max_assigned": 12083052
+    },
+    "hac-49152-OhlmannThomas-n150w160.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w160.003.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w160.003.txt"
+        ],
+        "run": 132,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 335.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 118138611200,
+        "generated": 211746561829,
+        "search_time": 308.865472253,
+        "total_time": 317.987988336,
+        "time_to_the_final_solution": 313.537881625,
+        "time_to_mpi_init": 4.461985675,
+        "time_to_init": 4.671599377,
+        "aah_p": null,
+        "kept": 13402887,
+        "sent": 658887153556,
+        "dominated_before_closed": 67479062108,
+        "dominated_after_closed": 6201762997,
+        "dual_bound_progress": [],
+        "max_expanded": 2583144,
+        "min_expanded": 1766695,
+        "max_received": 13463301,
+        "min_received": 13342265,
+        "cost": 608,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.912407003,
+                996.0
+            ],
+            [
+                7.972602352,
+                945.0
+            ],
+            [
+                8.013168775,
+                630.0
+            ],
+            [
+                8.14575774,
+                625.0
+            ],
+            [
+                8.166213331,
+                623.0
+            ],
+            [
+                8.428839467,
+                612.0
+            ],
+            [
+                15.033486313,
+                608.0
+            ],
+            [
+                308.859892034,
+                608.0
+            ]
+        ],
+        "total_assigned": 658900556443,
+        "max_assigned": 13463594
+    },
+    "hac-49152-OhlmannThomas-n200w140.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w140.005.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w140.005.txt"
+        ],
+        "run": 133,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w140.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 400.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 98907356423,
+        "generated": 238256675496,
+        "search_time": 307.562459967,
+        "total_time": 317.548724346,
+        "time_to_the_final_solution": 312.165318174,
+        "time_to_mpi_init": 4.3808395319999995,
+        "time_to_init": 4.602323548,
+        "aah_p": null,
+        "kept": 12037641,
+        "sent": 591660837725,
+        "dominated_before_closed": 66314550881,
+        "dominated_after_closed": 5391247306,
+        "dual_bound_progress": [],
+        "max_expanded": 2181175,
+        "min_expanded": 1634160,
+        "max_received": 12086537,
+        "min_received": 11992772,
+        "cost": 822,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.008884824,
+                1122.0
+            ],
+            [
+                9.016724029,
+                1059.0
+            ],
+            [
+                9.070633851,
+                1049.0
+            ],
+            [
+                9.110914266,
+                918.0
+            ],
+            [
+                9.151454839,
+                907.0
+            ],
+            [
+                9.375431097,
+                902.0
+            ],
+            [
+                9.608371352,
+                894.0
+            ],
+            [
+                10.108929668,
+                878.0
+            ],
+            [
+                10.400307072,
+                866.0
+            ],
+            [
+                10.45880305,
+                862.0
+            ],
+            [
+                11.009497313,
+                852.0
+            ],
+            [
+                11.107757744,
+                851.0
+            ],
+            [
+                11.453441191,
+                840.0
+            ],
+            [
+                12.1278071,
+                836.0
+            ],
+            [
+                12.164414672,
+                833.0
+            ],
+            [
+                12.431908771,
+                823.0
+            ],
+            [
+                19.40444409,
+                822.0
+            ],
+            [
+                307.554582093,
+                822.0
+            ]
+        ],
+        "total_assigned": 591672875366,
+        "max_assigned": 12086774
+    },
+    "hac-49152-OhlmannThomas-n150w120.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w120.004.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w120.004.txt"
+        ],
+        "run": 134,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w120.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 763.0,
+        "bound": 763.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 23997715831,
+        "generated": 23893248857,
+        "search_time": 86.792176859,
+        "total_time": 93.038520931,
+        "time_to_the_final_solution": 91.3355352,
+        "time_to_mpi_init": 4.423959995,
+        "time_to_init": 4.54296674,
+        "aah_p": null,
+        "kept": 3017366,
+        "sent": 148364374360,
+        "dominated_before_closed": 19635527832,
+        "dominated_after_closed": 1680266376,
+        "dual_bound_progress": [],
+        "max_expanded": 520735,
+        "min_expanded": 458927,
+        "max_received": 3046346,
+        "min_received": 2985943,
+        "cost": 763,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.160430023,
+                963.0
+            ],
+            [
+                8.273293238,
+                818.0
+            ],
+            [
+                8.295889559999999,
+                781.0
+            ],
+            [
+                8.377368899,
+                775.0
+            ],
+            [
+                8.423830442,
+                770.0
+            ],
+            [
+                8.487674652,
+                763.0
+            ],
+            [
+                86.787991144,
+                763.0
+            ]
+        ],
+        "total_assigned": 148367391726,
+        "max_assigned": 3046424
+    },
+    "hac-49152-OhlmannThomas-n150w120.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w120.003.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w120.003.txt"
+        ],
+        "run": 135,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w120.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 747.0,
+        "bound": 747.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 16631872913,
+        "generated": 16495829063,
+        "search_time": 45.037816118,
+        "total_time": 51.408485722,
+        "time_to_the_final_solution": 49.783679163,
+        "time_to_mpi_init": 4.484258092,
+        "time_to_init": 4.745452158,
+        "aah_p": null,
+        "kept": 1377192,
+        "sent": 67617396774,
+        "dominated_before_closed": 7200102195,
+        "dominated_after_closed": 943246289,
+        "dual_bound_progress": [],
+        "max_expanded": 358920,
+        "min_expanded": 324996,
+        "max_received": 1394354,
+        "min_received": 1356932,
+        "cost": 747,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.905056341,
+                918.0
+            ],
+            [
+                7.983345953,
+                787.0
+            ],
+            [
+                8.019364121,
+                747.0
+            ],
+            [
+                45.034118056,
+                747.0
+            ]
+        ],
+        "total_assigned": 67618773966,
+        "max_assigned": 1394376
+    },
+    "hac-49152-OhlmannThomas-n200w120.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w120.002.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w120.002.txt"
+        ],
+        "run": 136,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w120.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 389.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 101163941684,
+        "generated": 216957825836,
+        "search_time": 306.706688623,
+        "total_time": 316.161638337,
+        "time_to_the_final_solution": 311.31900582,
+        "time_to_mpi_init": 4.354891486,
+        "time_to_init": 4.6117784109999995,
+        "aah_p": null,
+        "kept": 13407582,
+        "sent": 659129939574,
+        "dominated_before_closed": 61533633885,
+        "dominated_after_closed": 4302327439,
+        "dual_bound_progress": [],
+        "max_expanded": 2233172,
+        "min_expanded": 1620275,
+        "max_received": 13462796,
+        "min_received": 13353322,
+        "cost": 721,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.456488003,
+                1098.0
+            ],
+            [
+                8.499623894,
+                1065.0
+            ],
+            [
+                8.539786674,
+                1041.0
+            ],
+            [
+                9.119149915,
+                776.0
+            ],
+            [
+                9.352984599,
+                766.0
+            ],
+            [
+                10.384991134,
+                754.0
+            ],
+            [
+                11.140644093,
+                748.0
+            ],
+            [
+                12.583559788,
+                740.0
+            ],
+            [
+                12.786266109,
+                736.0
+            ],
+            [
+                12.974977851,
+                727.0
+            ],
+            [
+                13.254927285,
+                721.0
+            ],
+            [
+                306.70042102,
+                721.0
+            ]
+        ],
+        "total_assigned": 659143347156,
+        "max_assigned": 13463062
+    },
+    "hac-49152-OhlmannThomas-n200w140.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w140.003.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w140.003.txt"
+        ],
+        "run": 137,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w140.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 338.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 42051820691,
+        "generated": 230657174333,
+        "search_time": 311.111611886,
+        "total_time": 323.885881259,
+        "time_to_the_final_solution": 316.046155614,
+        "time_to_mpi_init": 4.642527058,
+        "time_to_init": 4.933920623,
+        "aah_p": null,
+        "kept": 10428356,
+        "sent": 512361609200,
+        "dominated_before_closed": 57001727264,
+        "dominated_after_closed": 3937692979,
+        "dual_bound_progress": [],
+        "max_expanded": 1007368,
+        "min_expanded": 11580,
+        "max_received": 10460430,
+        "min_received": 10392382,
+        "cost": 758,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                29.08916068,
+                1002.0
+            ],
+            [
+                29.098086172,
+                992.0
+            ],
+            [
+                29.09951726,
+                987.0
+            ],
+            [
+                31.074324152,
+                769.0
+            ],
+            [
+                36.103773696,
+                760.0
+            ],
+            [
+                60.026752264,
+                758.0
+            ],
+            [
+                311.102821719,
+                758.0
+            ]
+        ],
+        "total_assigned": 512372037556,
+        "max_assigned": 10460663
+    },
+    "hac-49152-OhlmannThomas-n150w120.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w120.001.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w120.001.txt"
+        ],
+        "run": 138,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w120.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 734.0,
+        "bound": 734.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 14046267557,
+        "generated": 13794306898,
+        "search_time": 43.010014762,
+        "total_time": 49.177214301,
+        "time_to_the_final_solution": 47.591576354,
+        "time_to_mpi_init": 4.362223687,
+        "time_to_init": 4.581176738,
+        "aah_p": null,
+        "kept": 1281883,
+        "sent": 62839039990,
+        "dominated_before_closed": 6669436767,
+        "dominated_after_closed": 981926918,
+        "dual_bound_progress": [],
+        "max_expanded": 304537,
+        "min_expanded": 272778,
+        "max_received": 1299741,
+        "min_received": 1255190,
+        "cost": 734,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.652233097,
+                1021.0
+            ],
+            [
+                7.677569171,
+                735.0
+            ],
+            [
+                7.996919726,
+                734.0
+            ],
+            [
+                43.005216347,
+                734.0
+            ]
+        ],
+        "total_assigned": 62840321873,
+        "max_assigned": 1299771
+    },
+    "hac-49152-OhlmannThomas-n150w120.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w120.005.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w120.005.txt"
+        ],
+        "run": 139,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w120.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 689.0,
+        "bound": 689.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 34498600629,
+        "generated": 34564738668,
+        "search_time": 90.710711481,
+        "total_time": 97.014742473,
+        "time_to_the_final_solution": 95.329026248,
+        "time_to_mpi_init": 4.390699547,
+        "time_to_init": 4.617915033,
+        "aah_p": null,
+        "kept": 3808625,
+        "sent": 187007387919,
+        "dominated_before_closed": 14547279338,
+        "dominated_after_closed": 1991030283,
+        "dual_bound_progress": [],
+        "max_expanded": 740059,
+        "min_expanded": 670323,
+        "max_received": 3852607,
+        "min_received": 3758635,
+        "cost": 689,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.709806411,
+                930.0
+            ],
+            [
+                7.75571276,
+                910.0
+            ],
+            [
+                7.758153863,
+                761.0
+            ],
+            [
+                7.842598391,
+                723.0
+            ],
+            [
+                8.260840608,
+                689.0
+            ],
+            [
+                90.706607741,
+                689.0
+            ]
+        ],
+        "total_assigned": 187011196544,
+        "max_assigned": 3852666
+    },
+    "hac-49152-OhlmannThomas-n200w120.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w120.005.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w120.005.txt"
+        ],
+        "run": 140,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w120.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 383.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 69779728555,
+        "generated": 181795701649,
+        "search_time": 306.600388579,
+        "total_time": 315.977333503,
+        "time_to_the_final_solution": 311.360097509,
+        "time_to_mpi_init": 4.43502143,
+        "time_to_init": 4.759162588,
+        "aah_p": null,
+        "kept": 10566793,
+        "sent": 519541255403,
+        "dominated_before_closed": 59150496099,
+        "dominated_after_closed": 4882993874,
+        "dual_bound_progress": [],
+        "max_expanded": 1547879,
+        "min_expanded": 468608,
+        "max_received": 10620084,
+        "min_received": 10525370,
+        "cost": 841,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.025106398,
+                1105.0
+            ],
+            [
+                9.027422639,
+                885.0
+            ],
+            [
+                9.236927767,
+                877.0
+            ],
+            [
+                11.653759166,
+                858.0
+            ],
+            [
+                11.767629649,
+                847.0
+            ],
+            [
+                16.934031254,
+                842.0
+            ],
+            [
+                25.589439668,
+                841.0
+            ],
+            [
+                306.593516475,
+                841.0
+            ]
+        ],
+        "total_assigned": 519551822196,
+        "max_assigned": 10620271
+    },
+    "hac-49152-OhlmannThomas-n150w160.005.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w160.005.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w160.005.txt"
+        ],
+        "run": 141,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.005.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 361.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 127733152288,
+        "generated": 213674403979,
+        "search_time": 307.224076286,
+        "total_time": 316.61943869,
+        "time_to_the_final_solution": 311.80592445,
+        "time_to_mpi_init": 4.435893847,
+        "time_to_init": 4.581460542,
+        "aah_p": null,
+        "kept": 15133428,
+        "sent": 744189733444,
+        "dominated_before_closed": 77666327117,
+        "dominated_after_closed": 6262176712,
+        "dual_bound_progress": [],
+        "max_expanded": 2799805,
+        "min_expanded": 2058397,
+        "max_received": 15210663,
+        "min_received": 15069834,
+        "cost": 658,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.692135652,
+                867.0
+            ],
+            [
+                7.814657394,
+                846.0
+            ],
+            [
+                7.8967411,
+                709.0
+            ],
+            [
+                7.910131822,
+                675.0
+            ],
+            [
+                8.011458565,
+                672.0
+            ],
+            [
+                8.586064976,
+                669.0
+            ],
+            [
+                9.015727861,
+                660.0
+            ],
+            [
+                10.390710297,
+                659.0
+            ],
+            [
+                10.680332184,
+                658.0
+            ],
+            [
+                307.219242596,
+                658.0
+            ]
+        ],
+        "total_assigned": 744204866872,
+        "max_assigned": 15210938
+    },
+    "hac-49152-OhlmannThomas-n150w140.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w140.001.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w140.001.txt"
+        ],
+        "run": 142,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w140.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 347.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 132039050628,
+        "generated": 230029113486,
+        "search_time": 308.51948519,
+        "total_time": 318.692196493,
+        "time_to_the_final_solution": 313.111189606,
+        "time_to_mpi_init": 4.395880873,
+        "time_to_init": 4.591255761,
+        "aah_p": null,
+        "kept": 13583174,
+        "sent": 667739623695,
+        "dominated_before_closed": 85728487153,
+        "dominated_after_closed": 4482584532,
+        "dual_bound_progress": [],
+        "max_expanded": 2911522,
+        "min_expanded": 1992484,
+        "max_received": 13630698,
+        "min_received": 13536121,
+        "cost": 762,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.038241751,
+                831.0
+            ],
+            [
+                8.060177289,
+                811.0
+            ],
+            [
+                8.690421169,
+                792.0
+            ],
+            [
+                8.729401539,
+                780.0
+            ],
+            [
+                10.082921554,
+                763.0
+            ],
+            [
+                11.85564248,
+                762.0
+            ],
+            [
+                308.514572901,
+                762.0
+            ]
+        ],
+        "total_assigned": 667753206869,
+        "max_assigned": 13630999
+    },
+    "hac-49152-OhlmannThomas-n200w120.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w120.004.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w120.004.txt"
+        ],
+        "run": 143,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w120.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 425.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 115868488715,
+        "generated": 132186325698,
+        "search_time": 308.195109428,
+        "total_time": 316.326082444,
+        "time_to_the_final_solution": 312.886276583,
+        "time_to_mpi_init": 4.40067212,
+        "time_to_init": 4.690642975,
+        "aah_p": null,
+        "kept": 10835410,
+        "sent": 532667043004,
+        "dominated_before_closed": 66857306217,
+        "dominated_after_closed": 5775460680,
+        "dual_bound_progress": [],
+        "max_expanded": 2588072,
+        "min_expanded": 1776467,
+        "max_received": 10884725,
+        "min_received": 10785971,
+        "cost": 777,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.068111335,
+                1040.0
+            ],
+            [
+                9.095748574,
+                878.0
+            ],
+            [
+                9.242769538,
+                817.0
+            ],
+            [
+                10.469044417,
+                808.0
+            ],
+            [
+                10.472042077,
+                790.0
+            ],
+            [
+                10.920708645,
+                789.0
+            ],
+            [
+                12.510705348,
+                778.0
+            ],
+            [
+                16.246941862,
+                777.0
+            ],
+            [
+                308.18980823,
+                777.0
+            ]
+        ],
+        "total_assigned": 532677878414,
+        "max_assigned": 10884940
+    },
+    "hac-49152-OhlmannThomas-n200w140.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w140.002.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w140.002.txt"
+        ],
+        "run": 144,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w140.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 438.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 111667680544,
+        "generated": 225462474702,
+        "search_time": 307.448107913,
+        "total_time": 317.135130618,
+        "time_to_the_final_solution": 312.23233705,
+        "time_to_mpi_init": 4.499403329,
+        "time_to_init": 4.783735587,
+        "aah_p": null,
+        "kept": 12351543,
+        "sent": 607082521367,
+        "dominated_before_closed": 62473879896,
+        "dominated_after_closed": 5742072928,
+        "dual_bound_progress": [],
+        "max_expanded": 2468834,
+        "min_expanded": 1647955,
+        "max_received": 12401975,
+        "min_received": 12298184,
+        "cost": 760,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.69921438,
+                1092.0
+            ],
+            [
+                8.728662516,
+                1027.0
+            ],
+            [
+                8.84303089,
+                880.0
+            ],
+            [
+                8.846450018,
+                877.0
+            ],
+            [
+                11.450595684,
+                785.0
+            ],
+            [
+                11.682737447,
+                784.0
+            ],
+            [
+                12.293378879,
+                783.0
+            ],
+            [
+                13.207921942,
+                782.0
+            ],
+            [
+                13.615878338,
+                781.0
+            ],
+            [
+                14.311571378,
+                780.0
+            ],
+            [
+                16.341044521,
+                779.0
+            ],
+            [
+                19.617935883,
+                777.0
+            ],
+            [
+                19.993221836,
+                775.0
+            ],
+            [
+                22.127581175,
+                774.0
+            ],
+            [
+                32.866936936,
+                771.0
+            ],
+            [
+                33.804807633,
+                762.0
+            ],
+            [
+                38.119976951,
+                761.0
+            ],
+            [
+                42.790012121,
+                760.0
+            ],
+            [
+                307.442629917,
+                760.0
+            ]
+        ],
+        "total_assigned": 607094872910,
+        "max_assigned": 12402231
+    },
+    "hac-49152-OhlmannThomas-n200w120.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w120.001.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w120.001.txt"
+        ],
+        "run": 145,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w120.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 434.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 102744154156,
+        "generated": 230683767307,
+        "search_time": 307.231177704,
+        "total_time": 317.685272956,
+        "time_to_the_final_solution": 312.206461522,
+        "time_to_mpi_init": 4.386627499,
+        "time_to_init": 4.974703712,
+        "aah_p": null,
+        "kept": 15610549,
+        "sent": 767529266073,
+        "dominated_before_closed": 97848702579,
+        "dominated_after_closed": 4128124762,
+        "dual_bound_progress": [],
+        "max_expanded": 2265803,
+        "min_expanded": 1515560,
+        "max_received": 15674112,
+        "min_received": 15552011,
+        "cost": 799,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.608900163,
+                1137.0
+            ],
+            [
+                8.634567093,
+                1136.0
+            ],
+            [
+                8.771928601,
+                843.0
+            ],
+            [
+                10.063329765,
+                829.0
+            ],
+            [
+                10.736583098,
+                822.0
+            ],
+            [
+                11.90621566,
+                799.0
+            ],
+            [
+                307.222636626,
+                799.0
+            ]
+        ],
+        "total_assigned": 767544876622,
+        "max_assigned": 15674454
+    },
+    "hac-49152-OhlmannThomas-n150w160.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w160.002.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w160.002.txt"
+        ],
+        "run": 146,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 345.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 136705262126,
+        "generated": 241563727976,
+        "search_time": 307.898315064,
+        "total_time": 318.087677044,
+        "time_to_the_final_solution": 312.505677687,
+        "time_to_mpi_init": 4.384073757,
+        "time_to_init": 4.606985976,
+        "aah_p": null,
+        "kept": 13737094,
+        "sent": 675082865904,
+        "dominated_before_closed": 88763654376,
+        "dominated_after_closed": 6162414409,
+        "dual_bound_progress": [],
+        "max_expanded": 3011884,
+        "min_expanded": 2199456,
+        "max_received": 13785779,
+        "min_received": 13682683,
+        "cost": 711,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.977677965,
+                933.0
+            ],
+            [
+                8.00083901,
+                928.0
+            ],
+            [
+                8.002423396,
+                860.0
+            ],
+            [
+                8.115669193,
+                755.0
+            ],
+            [
+                9.093827963,
+                712.0
+            ],
+            [
+                9.990828784,
+                711.0
+            ],
+            [
+                307.892413312,
+                711.0
+            ]
+        ],
+        "total_assigned": 675096602998,
+        "max_assigned": 13786079
+    },
+    "hac-49152-OhlmannThomas-n150w140.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w140.004.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w140.004.txt"
+        ],
+        "run": 147,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w140.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 377.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 125127149796,
+        "generated": 205755039009,
+        "search_time": 307.037122819,
+        "total_time": 316.041491624,
+        "time_to_the_final_solution": 311.649841315,
+        "time_to_mpi_init": 4.443563034,
+        "time_to_init": 4.612340195,
+        "aah_p": null,
+        "kept": 11498575,
+        "sent": 564914126384,
+        "dominated_before_closed": 52948198224,
+        "dominated_after_closed": 4512324644,
+        "dual_bound_progress": [],
+        "max_expanded": 2726875,
+        "min_expanded": 2030404,
+        "max_received": 11552666,
+        "min_received": 11438213,
+        "cost": 676,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.102816761,
+                904.0
+            ],
+            [
+                8.132127885,
+                896.0
+            ],
+            [
+                8.192385593,
+                698.0
+            ],
+            [
+                8.425162885,
+                693.0
+            ],
+            [
+                8.504114397,
+                676.0
+            ],
+            [
+                307.032091652,
+                676.0
+            ]
+        ],
+        "total_assigned": 564925624959,
+        "max_assigned": 11552846
+    },
+    "hac-49152-OhlmannThomas-n200w120.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w120.003.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w120.003.txt"
+        ],
+        "run": 148,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w120.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 403.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 95315787547,
+        "generated": 166250744902,
+        "search_time": 307.422045154,
+        "total_time": 315.899619476,
+        "time_to_the_final_solution": 312.013274191,
+        "time_to_mpi_init": 4.330979087,
+        "time_to_init": 4.590736553,
+        "aah_p": null,
+        "kept": 9777736,
+        "sent": 480715002368,
+        "dominated_before_closed": 46744295815,
+        "dominated_after_closed": 3560298229,
+        "dual_bound_progress": [],
+        "max_expanded": 2094724,
+        "min_expanded": 1471755,
+        "max_received": 9826090,
+        "min_received": 9728722,
+        "cost": 880,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.128522229,
+                1152.0
+            ],
+            [
+                10.241087817,
+                882.0
+            ],
+            [
+                11.362240975,
+                880.0
+            ],
+            [
+                307.416665203,
+                880.0
+            ]
+        ],
+        "total_assigned": 480724780104,
+        "max_assigned": 9826319
+    },
+    "hac-49152-OhlmannThomas-n150w120.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w120.002.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w120.002.txt"
+        ],
+        "run": 149,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w120.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 677.0,
+        "bound": 677.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 49526378816,
+        "generated": 54707047092,
+        "search_time": 136.824281753,
+        "total_time": 143.27455545,
+        "time_to_the_final_solution": 141.322274094,
+        "time_to_mpi_init": 4.360570119,
+        "time_to_init": 4.49754717,
+        "aah_p": null,
+        "kept": 5877721,
+        "sent": 288777959045,
+        "dominated_before_closed": 27651396396,
+        "dominated_after_closed": 1831093670,
+        "dual_bound_progress": [],
+        "max_expanded": 1045485,
+        "min_expanded": 979865,
+        "max_received": 5944004,
+        "min_received": 5813991,
+        "cost": 677,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.033623323,
+                952.0
+            ],
+            [
+                8.092535913,
+                908.0
+            ],
+            [
+                8.120466538,
+                677.0
+            ],
+            [
+                136.81902966,
+                677.0
+            ]
+        ],
+        "total_assigned": 288783836766,
+        "max_assigned": 5944128
+    },
+    "hac-49152-OhlmannThomas-n150w160.001.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w160.001.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w160.001.txt"
+        ],
+        "run": 150,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.001.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 330.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 141594114065,
+        "generated": 190302885616,
+        "search_time": 306.624151783,
+        "total_time": 316.182981153,
+        "time_to_the_final_solution": 311.490277583,
+        "time_to_mpi_init": 4.733804016,
+        "time_to_init": 4.865747022,
+        "aah_p": null,
+        "kept": 11535559,
+        "sent": 567173958287,
+        "dominated_before_closed": 68295572034,
+        "dominated_after_closed": 6409449902,
+        "dual_bound_progress": [],
+        "max_expanded": 3097479,
+        "min_expanded": 2151449,
+        "max_received": 11589391,
+        "min_received": 11479264,
+        "cost": 706,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.187481504,
+                998.0
+            ],
+            [
+                8.21579073,
+                977.0
+            ],
+            [
+                8.230183441,
+                952.0
+            ],
+            [
+                8.416886445,
+                776.0
+            ],
+            [
+                8.46806081,
+                710.0
+            ],
+            [
+                8.755647566,
+                706.0
+            ],
+            [
+                306.619430058,
+                706.0
+            ]
+        ],
+        "total_assigned": 567185493846,
+        "max_assigned": 11589608
+    },
+    "hac-49152-OhlmannThomas-n200w140.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n200w140.004.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n200w140.004.txt"
+        ],
+        "run": 151,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n200w140.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 329.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": null,
+        "generated": null,
+        "search_time": 20.410095204,
+        "total_time": null,
+        "time_to_the_final_solution": null,
+        "time_to_mpi_init": 4.655638413,
+        "time_to_init": 4.840802736,
+        "aah_p": null,
+        "kept": null,
+        "sent": null,
+        "dominated_before_closed": null,
+        "dominated_after_closed": null,
+        "dual_bound_progress": [],
+        "max_expanded": null,
+        "min_expanded": null,
+        "max_received": null,
+        "min_received": null,
+        "cost": 816,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                9.034569482,
+                1134.0
+            ],
+            [
+                9.048564484,
+                1128.0
+            ],
+            [
+                9.111821533,
+                1081.0
+            ],
+            [
+                9.210102172,
+                975.0
+            ],
+            [
+                9.683660864,
+                944.0
+            ],
+            [
+                12.602153554,
+                862.0
+            ],
+            [
+                13.022788704,
+                857.0
+            ],
+            [
+                13.232584032,
+                853.0
+            ],
+            [
+                13.658628253,
+                848.0
+            ],
+            [
+                15.382900753,
+                847.0
+            ],
+            [
+                16.983652883,
+                821.0
+            ],
+            [
+                17.607723045,
+                818.0
+            ],
+            [
+                18.3196173,
+                817.0
+            ],
+            [
+                20.410095204,
+                816.0
+            ]
+        ],
+        "total_assigned": null,
+        "max_assigned": null
+    },
+    "hac-49152-OhlmannThomas-n150w160.004.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w160.004.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w160.004.txt"
+        ],
+        "run": 152,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w160.004.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 277.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": null,
+        "generated": null,
+        "search_time": 22.388724358,
+        "total_time": null,
+        "time_to_the_final_solution": null,
+        "time_to_mpi_init": 4.385425171,
+        "time_to_init": 4.516857057,
+        "aah_p": null,
+        "kept": null,
+        "sent": null,
+        "dominated_before_closed": null,
+        "dominated_after_closed": null,
+        "dual_bound_progress": [],
+        "max_expanded": null,
+        "min_expanded": null,
+        "max_received": null,
+        "min_received": null,
+        "cost": 672,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.223848159,
+                951.0
+            ],
+            [
+                8.259249462,
+                912.0
+            ],
+            [
+                8.430369898,
+                733.0
+            ],
+            [
+                9.740276443,
+                689.0
+            ],
+            [
+                10.765578063,
+                679.0
+            ],
+            [
+                10.992753654,
+                678.0
+            ],
+            [
+                16.080230504,
+                675.0
+            ],
+            [
+                22.388724358,
+                672.0
+            ]
+        ],
+        "total_assigned": null,
+        "max_assigned": null
+    },
+    "hac-49152-OhlmannThomas-n150w140.003.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w140.003.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w140.003.txt"
+        ],
+        "run": 153,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w140.003.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 382.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": 118770655811,
+        "generated": 301636963297,
+        "search_time": 306.794689376,
+        "total_time": 318.299631421,
+        "time_to_the_final_solution": 311.422583043,
+        "time_to_mpi_init": 4.438942139,
+        "time_to_init": 4.627515626,
+        "aah_p": null,
+        "kept": 16018501,
+        "sent": 787200721185,
+        "dominated_before_closed": 71174759404,
+        "dominated_after_closed": 6845493413,
+        "dual_bound_progress": [],
+        "max_expanded": 2605371,
+        "min_expanded": 1709246,
+        "max_received": 16066115,
+        "min_received": 15961646,
+        "cost": 613,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.946110841999999,
+                879.0
+            ],
+            [
+                7.967981581,
+                858.0
+            ],
+            [
+                8.050910527,
+                845.0
+            ],
+            [
+                8.110731889,
+                643.0
+            ],
+            [
+                8.183001678,
+                639.0
+            ],
+            [
+                9.126807433,
+                621.0
+            ],
+            [
+                11.84773062,
+                613.0
+            ],
+            [
+                306.788550652,
+                613.0
+            ]
+        ],
+        "total_assigned": 787216739686,
+        "max_assigned": 16066426
+    },
+    "hac-49152-OhlmannThomas-n150w140.002.txt": {
+        "algorithm": "hac-49152",
+        "domain": "OhlmannThomas",
+        "problem": "n150w140.002.txt",
+        "id": [
+            "hac-49152",
+            "OhlmannThomas",
+            "n150w140.002.txt"
+        ],
+        "run": 154,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/OhlmannThomas/n150w140.002.txt\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 755.0,
+        "bound": 755.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 56610293109,
+        "generated": 54827626484,
+        "search_time": 150.474963204,
+        "total_time": 157.141435399,
+        "time_to_the_final_solution": 154.982216144,
+        "time_to_mpi_init": 4.377617109,
+        "time_to_init": 4.506743653,
+        "aah_p": null,
+        "kept": 3851633,
+        "sent": 189335238558,
+        "dominated_before_closed": 16939177906,
+        "dominated_after_closed": 3307737257,
+        "dual_bound_progress": [],
+        "max_expanded": 1191495,
+        "min_expanded": 1113031,
+        "max_received": 3881772,
+        "min_received": 3822617,
+        "cost": 755,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                8.021055498,
+                1053.0
+            ],
+            [
+                8.023166357,
+                1025.0
+            ],
+            [
+                8.08655539,
+                785.0
+            ],
+            [
+                8.121417168,
+                766.0
+            ],
+            [
+                8.30532672,
+                756.0
+            ],
+            [
+                8.524205311,
+                755.0
+            ],
+            [
+                150.470608733,
+                755.0
+            ]
+        ],
+        "total_assigned": 189339090191,
+        "max_assigned": 3881867
+    },
+    "hac-49152-AFG-rbg152.3.tw": {
+        "algorithm": "hac-49152",
+        "domain": "AFG",
+        "problem": "rbg152.3.tw",
+        "id": [
+            "hac-49152",
+            "AFG",
+            "rbg152.3.tw"
+        ],
+        "run": 293,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/AFG/rbg152.3.tw\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 9788.0,
+        "bound": 9788.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 1528416866,
+        "generated": 1538615175,
+        "search_time": 13.758826618,
+        "total_time": 19.515478368,
+        "time_to_the_final_solution": 18.398143251,
+        "time_to_mpi_init": 4.423951303,
+        "time_to_init": 4.638944545,
+        "aah_p": null,
+        "kept": 205872,
+        "sent": 10092916206,
+        "dominated_before_closed": 1332434705,
+        "dominated_after_closed": 529614131,
+        "dual_bound_progress": [],
+        "max_expanded": 37138,
+        "min_expanded": 20011,
+        "max_received": 225694,
+        "min_received": 185284,
+        "cost": 9788,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                7.081061096,
+                10340.0
+            ],
+            [
+                7.105712714,
+                10289.0
+            ],
+            [
+                7.117257055,
+                10170.0
+            ],
+            [
+                7.153786506,
+                9795.0
+            ],
+            [
+                7.159933378,
+                9794.0
+            ],
+            [
+                7.217666024,
+                9788.0
+            ],
+            [
+                13.757171902,
+                9788.0
+            ]
+        ],
+        "total_assigned": 10093122078,
+        "max_assigned": 225695
+    },
+    "hac-49152-AFG-rbg050a.tw": {
+        "algorithm": "hac-49152",
+        "domain": "AFG",
+        "problem": "rbg050a.tw",
+        "id": [
+            "hac-49152",
+            "AFG",
+            "rbg050a.tw"
+        ],
+        "run": 295,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/AFG/rbg050a.tw\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": null,
+        "bound": 2539.0,
+        "coverage": 0,
+        "proved_infeasible": 0,
+        "expanded": null,
+        "generated": null,
+        "search_time": 40.651474074,
+        "total_time": null,
+        "time_to_the_final_solution": null,
+        "time_to_mpi_init": 4.453086439,
+        "time_to_init": 4.504530698,
+        "aah_p": null,
+        "kept": null,
+        "sent": null,
+        "dominated_before_closed": null,
+        "dominated_after_closed": null,
+        "dual_bound_progress": [],
+        "max_expanded": null,
+        "min_expanded": null,
+        "max_received": null,
+        "min_received": null,
+        "cost": 2968,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                34.157530165,
+                3104.0
+            ],
+            [
+                34.159971087,
+                2980.0
+            ],
+            [
+                37.708836444,
+                2977.0
+            ],
+            [
+                37.709598608,
+                2976.0
+            ],
+            [
+                40.651474074,
+                2968.0
+            ]
+        ],
+        "total_assigned": null,
+        "max_assigned": null
+    },
+    "hac-49152-AFG-rbg233.2.tw": {
+        "algorithm": "hac-49152",
+        "domain": "AFG",
+        "problem": "rbg233.2.tw",
+        "id": [
+            "hac-49152",
+            "AFG",
+            "rbg233.2.tw"
+        ],
+        "run": 310,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/AFG/rbg233.2.tw\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 14491.0,
+        "bound": 14491.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 288146311,
+        "generated": 275469640,
+        "search_time": 8.130148606,
+        "total_time": 13.872406164000001,
+        "time_to_the_final_solution": 13.090613574,
+        "time_to_mpi_init": 4.486898399,
+        "time_to_init": 4.959780358,
+        "aah_p": null,
+        "kept": 34577,
+        "sent": 1743597712,
+        "dominated_before_closed": 266602586,
+        "dominated_after_closed": 136677700,
+        "dual_bound_progress": [],
+        "max_expanded": 7401,
+        "min_expanded": 3428,
+        "max_received": 45935,
+        "min_received": 27741,
+        "cost": 14491,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.737512961,
+                15996.0
+            ],
+            [
+                2.742542209,
+                15994.0
+            ],
+            [
+                2.772579247,
+                15989.0
+            ],
+            [
+                2.817853078,
+                14509.0
+            ],
+            [
+                2.822730932,
+                14491.0
+            ],
+            [
+                8.126192047,
+                14491.0
+            ]
+        ],
+        "total_assigned": 1743632289,
+        "max_assigned": 45935
+    },
+    "hac-49152-AFG-rbg193.2.tw": {
+        "algorithm": "hac-49152",
+        "domain": "AFG",
+        "problem": "rbg193.2.tw",
+        "id": [
+            "hac-49152",
+            "AFG",
+            "rbg193.2.tw"
+        ],
+        "run": 324,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/AFG/rbg193.2.tw\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 12138.0,
+        "bound": 12138.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 251794705,
+        "generated": 254216455,
+        "search_time": 9.535930087,
+        "total_time": 14.908231098,
+        "time_to_the_final_solution": 14.136390655,
+        "time_to_mpi_init": 4.296845921,
+        "time_to_init": 4.600002201,
+        "aah_p": null,
+        "kept": 31886,
+        "sent": 1621187198,
+        "dominated_before_closed": 248857196,
+        "dominated_after_closed": 104098987,
+        "dual_bound_progress": [],
+        "max_expanded": 6917,
+        "min_expanded": 2956,
+        "max_received": 41847,
+        "min_received": 25407,
+        "cost": 12138,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.215538644,
+                13216.0
+            ],
+            [
+                2.221320071,
+                13168.0
+            ],
+            [
+                2.247357929,
+                13055.0
+            ],
+            [
+                2.249231453,
+                12146.0
+            ],
+            [
+                2.275628839,
+                12144.0
+            ],
+            [
+                2.291227924,
+                12139.0
+            ],
+            [
+                2.330051623,
+                12138.0
+            ],
+            [
+                9.533627971,
+                12138.0
+            ]
+        ],
+        "total_assigned": 1621219084,
+        "max_assigned": 41847
+    },
+    "hac-49152-AFG-rbg050c.tw": {
+        "algorithm": "hac-49152",
+        "domain": "AFG",
+        "problem": "rbg050c.tw",
+        "id": [
+            "hac-49152",
+            "AFG",
+            "rbg050c.tw"
+        ],
+        "run": 333,
+        "command": "/home/bemrkuro/code/or-baselines/tsptw/tsptw_to_didp.py \"/home/bemrkuro/code/or-baselines/tsptw/integer_instances/AFG/rbg050c.tw\" --use-bound --non-zero-base-case --memory-limit 4192",
+        "optimal_cost": 10024.0,
+        "bound": 10024.0,
+        "coverage": 1,
+        "proved_infeasible": 0,
+        "expanded": 146073263,
+        "generated": 130626701,
+        "search_time": 8.882113413999999,
+        "total_time": 14.084988907,
+        "time_to_the_final_solution": 13.28203559,
+        "time_to_mpi_init": 4.36134401,
+        "time_to_init": 4.399777619,
+        "aah_p": null,
+        "kept": 15344,
+        "sent": 742493739,
+        "dominated_before_closed": 74384769,
+        "dominated_after_closed": 20894231,
+        "dual_bound_progress": [],
+        "max_expanded": 3446,
+        "min_expanded": 2483,
+        "max_received": 17029,
+        "min_received": 13362,
+        "cost": 10024,
+        "invalid": 0,
+        "feasible": 1,
+        "history": [
+            [
+                2.459656176,
+                10078.0
+            ],
+            [
+                2.5127055,
+                10028.0
+            ],
+            [
+                2.540768699,
+                10024.0
+            ],
+            [
+                8.881368514,
+                10024.0
+            ]
+        ],
+        "total_assigned": 742509083,
+        "max_assigned": 17029
+    }
+}

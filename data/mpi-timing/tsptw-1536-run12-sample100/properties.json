@@ -1,0 +1,73 @@
+{
+    "optimal_cost": 509.0,
+    "bound": 509.0,
+    "coverage": 1,
+    "proved_infeasible": 0,
+    "expanded": 263754272,
+    "generated": 257591447,
+    "search_time": 7.772029096,
+    "total_time": 9.067034903,
+    "time_to_the_final_solution": 8.871418641,
+    "time_to_mpi_init": 1.000777578,
+    "time_to_init": 1.038370601,
+    "aah_p": null,
+    "kept": 804990,
+    "sent": 1234154519,
+    "dominated_before_closed": 112687890,
+    "dominated_after_closed": 20017121,
+    "dual_bound_progress": [],
+    "max_expanded": 182915,
+    "min_expanded": 164715,
+    "max_received": 818073,
+    "min_received": 787097,
+    "total_control_messages": null,
+    "cost": 509,
+    "invalid": 0,
+    "feasible": 1,
+    "history": [
+        [
+            0.179680667,
+            752.0
+        ],
+        [
+            0.181946445,
+            706.0
+        ],
+        [
+            0.182614223,
+            701.0
+        ],
+        [
+            0.22396111,
+            583.0
+        ],
+        [
+            0.252317622,
+            544.0
+        ],
+        [
+            0.260183358,
+            528.0
+        ],
+        [
+            0.273945778,
+            527.0
+        ],
+        [
+            0.278743202,
+            524.0
+        ],
+        [
+            0.337577767,
+            513.0
+        ],
+        [
+            0.396019329,
+            509.0
+        ],
+        [
+            7.770104686,
+            509.0
+        ]
+    ]
+}
