@@ -108,6 +108,16 @@
       "number": 7,
       "label": "fig:hac-1-96-others",
       "file": "plots/hac-96-sualbp-2-total.pdf"
+    },
+    {
+      "document": "diagnostic",
+      "label": "fig:mpi-breakdown-salbp-1-acps-run921",
+      "file": "plots/mpi-breakdown-salbp-1-acps-run921.pdf"
+    },
+    {
+      "document": "diagnostic",
+      "label": "fig:mpi-breakdown-salbp-1-apps-run921",
+      "file": "plots/mpi-breakdown-salbp-1-apps-run921.pdf"
     }
   ],
   "tables": [
@@ -218,6 +228,38 @@
       "header": "\\begin{tabular}{lrrrrrrrrrr}\n\\toprule\n& 1 & 96 & 768 & 1536 & 6144 & 12288 & 24576 & 49152 & Total \\\\\n\\midrule\n",
       "rows": 2,
       "columns": 10
+    },
+    {
+      "document": "diagnostic",
+      "label": "tab:communication-salbp-1-acps-run921",
+      "file": "tables/communication-salbp-1-acps-run921.tex",
+      "header": "\\begin{tabular}{lrrrrrr}\n\\toprule\n& Search time & Expansions & \\multicolumn{2}{c}{MPI\\_Bsend calls} & \\multicolumn{2}{c}{Payload (GB)} \\\\\n& (s) & (millions) & \\multicolumn{2}{c}{(millions)} & & \\\\\n\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}\nConfiguration & & & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 7
+    },
+    {
+      "document": "diagnostic",
+      "label": "tab:communication-per-expansion-salbp-1-acps-run921",
+      "file": "tables/communication-per-expansion-salbp-1-acps-run921.tex",
+      "header": "\\begin{tabular}{lrrrr}\n\\toprule\n& \\multicolumn{2}{c}{MPI\\_Bsend calls / expansion} & \\multicolumn{2}{c}{Payload bytes / expansion} \\\\\n\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\nConfiguration & Intra-machine & Inter-machine & Intra-machine & Inter-machine \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "document": "diagnostic",
+      "label": "tab:communication-salbp-1-apps-run921",
+      "file": "tables/communication-salbp-1-apps-run921.tex",
+      "header": "\\begin{tabular}{lrrrrrr}\n\\toprule\n& Search time & Expansions & \\multicolumn{2}{c}{MPI\\_Bsend calls} & \\multicolumn{2}{c}{Payload (GB)} \\\\\n& (s) & (millions) & \\multicolumn{2}{c}{(millions)} & & \\\\\n\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}\nConfiguration & & & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} & \\shortstack{Intra-\\\\machine} & \\shortstack{Inter-\\\\machine} \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 7
+    },
+    {
+      "document": "diagnostic",
+      "label": "tab:communication-per-expansion-salbp-1-apps-run921",
+      "file": "tables/communication-per-expansion-salbp-1-apps-run921.tex",
+      "header": "\\begin{tabular}{lrrrr}\n\\toprule\n& \\multicolumn{2}{c}{MPI\\_Bsend calls / expansion} & \\multicolumn{2}{c}{Payload bytes / expansion} \\\\\n\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\nConfiguration & Intra-machine & Inter-machine & Intra-machine & Inter-machine \\\\\n\\midrule\n",
+      "rows": 3,
+      "columns": 5
     }
   ],
   "selections": {

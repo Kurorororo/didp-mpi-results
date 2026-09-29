@@ -1,4 +1,4 @@
-"""Compute the twelve final LaTeX tables directly from the recorded inputs."""
+"""Compute the final LaTeX tables directly from the recorded inputs."""
 import collections
 import math
 import re
@@ -150,9 +150,9 @@ def brfs():
     emit('tab:brfs', output)
 
 
-def communication():
+def communication_rows(configs):
     totals, rates = [], []
-    for c in mpi.load_configurations(DATA / 'mpi-timing'):
+    for c in configs:
         op = c['rows']['all', 'MPI_Bsend']
         n = c['props']['expanded']
         messages_in, bytes_in, messages_out, bytes_out = (int(op[k]) for k in mpi.VOLUME_FIELDS)
@@ -163,8 +163,17 @@ def communication():
                        f'{messages_in/1e6:,.3f}', f'{messages_out/1e6:,.3f}',
                        f'{bytes_in/1e9:,.3f}', f'{bytes_out/1e9:,.3f}'])
         rates.append([name, *[number(v/n) for v in (messages_in, messages_out, bytes_in, bytes_out)]])
+    return totals, rates
+
+
+def communication():
+    totals, rates = communication_rows(mpi.load_configurations(DATA / 'mpi-timing'))
     emit('tab:communication', totals)
     emit('tab:communication-per-expansion', rates)
+    for algorithm in ('acps', 'apps'):
+        totals, rates = communication_rows(mpi.load_salbp_configurations(DATA / 'mpi-timing', algorithm))
+        emit(f'tab:communication-salbp-1-{algorithm}-run921', totals)
+        emit(f'tab:communication-per-expansion-salbp-1-{algorithm}-run921', rates)
 
 
 def speedup():

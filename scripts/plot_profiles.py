@@ -142,12 +142,16 @@ GROUPS = {
 COLORS = ("#648BA8", "#D55E00", "#009E73", "#CC79A7", "#777777")
 
 
-def mpi_breakdown():
-    configs = mpi.load_configurations(DATA / "mpi-timing")
+def mpi_breakdown(configs=None, filename="mpi-breakdown.pdf", title=None, scale=None):
+    if configs is None:
+        configs = mpi.load_configurations(DATA / "mpi-timing")
     plt.rcParams.update({"font.size": 10, "axes.spines.top": False, "axes.spines.right": False,
                          "pdf.fonttype": 42})
     fig, ax = plt.subplots(figsize=(5.2, 3.7))
     fig.subplots_adjust(left=0.15, right=0.985, bottom=0.19, top=0.80)
+    if title:
+        ax.set_title(title, fontsize=10, pad=9)
+    label_scale = scale / 100 if scale is not None else 1
     breakdown = []
     positions = [i * 1.35 for i in range(len(configs))]
     for i, c in zip(positions, configs):
@@ -169,7 +173,7 @@ def mpi_breakdown():
             else:
                 number = f"{value:.2f}"
             gid = f"category-value-{c['id']}-{name.replace(' ', '-')}"
-            if abs(value) >= 6:
+            if abs(value) >= 6 * label_scale:
                 ax.text(i, center, number, ha="center", va="center", fontsize=9, gid=gid)
             else:
                 outside_labels.append((center, number, color, gid))
@@ -179,8 +183,8 @@ def mpi_breakdown():
                 negative += value
             breakdown.append(dict(configuration=c["id"], category=name, rank_us_per_expansion=value))
         # Separate labels for narrow segments without changing their heights.
-        spacing = 5.5
-        label_center = sum(row[0] for row in outside_labels) / len(outside_labels)
+        spacing = 5.5 * label_scale
+        label_center = sum(row[0] for row in outside_labels) / max(1, len(outside_labels))
         for j, (center, number, color, gid) in enumerate(outside_labels):
             y = label_center + (j - (len(outside_labels) - 1) / 2) * spacing
             ax.plot([i + 0.29, i + 0.35, i + 0.40], [center, y, y], color=color, linewidth=0.8)
@@ -193,12 +197,27 @@ def mpi_breakdown():
     ax.set_ylabel("Time per expansion (µs)")
     ax.set_axisbelow(True)
     ax.grid(axis="y", color="#dddddd", linewidth=0.6)
-    ax.set_ylim(bottom=0)
+    negative_total = min(sum(min(0, row["rank_us_per_expansion"]) for row in breakdown
+                             if row["configuration"] == c["id"]) for c in configs)
+    ax.set_ylim(bottom=negative_total * 1.08)
     ax.set_ylim(top=max(sum(row["rank_us_per_expansion"] for row in breakdown
                            if row["configuration"] == c["id"]) for c in configs) * 1.08)
+    if scale is not None:
+        ax.set_ylim(top=scale)
     handles, labels = ax.get_legend_handles_labels()
     order = [3, 1, 2, 4, 0]
     fig.legend([handles[i] for i in order], [labels[i] for i in order],
                loc="upper center", bbox_to_anchor=(0.55, 0.99), ncol=3, frameon=False, fontsize=8)
-    fig.savefig(PLOTS / "mpi-breakdown.pdf", dpi=200, facecolor="white")
+    fig.savefig(PLOTS / filename, dpi=200, facecolor="white")
     plt.close(fig)
+
+
+def salbp_mpi_breakdown():
+    configs = {algorithm: mpi.load_salbp_configurations(DATA / "mpi-timing", algorithm)
+               for algorithm in ("acps", "apps")}
+    scale = max(sum(max(0, sum(mpi.total(c, op) for op in operations))
+                    for operations in GROUPS.values()) / c["props"]["expanded"] / 1000
+                for group in configs.values() for c in group) * 1.15
+    for algorithm, group in configs.items():
+        mpi_breakdown(group, f"mpi-breakdown-salbp-1-{algorithm}-run921.pdf",
+                      scale=scale)

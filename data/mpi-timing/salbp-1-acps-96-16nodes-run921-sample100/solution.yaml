@@ -1,0 +1,404 @@
+cost: 51
+transitions:
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 2
+- name: do-task
+  parameters:
+    t: 1
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 12
+- name: do-task
+  parameters:
+    t: 23
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 30
+- name: do-task
+  parameters:
+    t: 35
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 0
+- name: do-task
+  parameters:
+    t: 42
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 8
+- name: do-task
+  parameters:
+    t: 11
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 51
+- name: do-task
+  parameters:
+    t: 5
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 38
+- name: do-task
+  parameters:
+    t: 18
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 61
+- name: do-task
+  parameters:
+    t: 32
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 20
+- name: do-task
+  parameters:
+    t: 4
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 10
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 26
+- name: do-task
+  parameters:
+    t: 24
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 68
+- name: do-task
+  parameters:
+    t: 27
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 34
+- name: do-task
+  parameters:
+    t: 6
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 65
+- name: do-task
+  parameters:
+    t: 46
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 47
+- name: do-task
+  parameters:
+    t: 3
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 74
+- name: do-task
+  parameters:
+    t: 73
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 14
+- name: do-task
+  parameters:
+    t: 58
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 22
+- name: do-task
+  parameters:
+    t: 31
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 77
+- name: do-task
+  parameters:
+    t: 15
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 9
+- name: do-task
+  parameters:
+    t: 90
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 33
+- name: do-task
+  parameters:
+    t: 43
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 21
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 36
+- name: do-task
+  parameters:
+    t: 41
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 40
+- name: do-task
+  parameters:
+    t: 29
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 50
+- name: do-task
+  parameters:
+    t: 7
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 44
+- name: do-task
+  parameters:
+    t: 64
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 48
+- name: do-task
+  parameters:
+    t: 70
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 60
+- name: do-task
+  parameters:
+    t: 52
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 80
+- name: do-task
+  parameters:
+    t: 53
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 56
+- name: do-task
+  parameters:
+    t: 25
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 13
+- name: do-task
+  parameters:
+    t: 85
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 17
+- name: do-task
+  parameters:
+    t: 72
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 49
+- name: do-task
+  parameters:
+    t: 28
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 79
+- name: do-task
+  parameters:
+    t: 63
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 37
+- name: do-task
+  parameters:
+    t: 69
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 93
+- name: do-task
+  parameters:
+    t: 67
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 94
+- name: do-task
+  parameters:
+    t: 81
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 88
+- name: do-task
+  parameters:
+    t: 16
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 62
+- name: do-task
+  parameters:
+    t: 19
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 76
+- name: do-task
+  parameters:
+    t: 84
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 54
+- name: do-task
+  parameters:
+    t: 97
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 39
+- name: do-task
+  parameters:
+    t: 55
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 57
+- name: do-task
+  parameters:
+    t: 98
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 45
+- name: do-task
+  parameters:
+    t: 91
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 78
+- name: do-task
+  parameters:
+    t: 71
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 83
+- name: do-task
+  parameters:
+    t: 95
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 59
+- name: do-task
+  parameters:
+    t: 89
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 75
+- name: do-task
+  parameters:
+    t: 92
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 66
+- name: do-task
+  parameters:
+    t: 82
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 86
+- name: do-task
+  parameters:
+    t: 99
+- name: open-new-station
+  parameters: {}
+- name: do-task
+  parameters:
+    t: 87
+- name: do-task
+  parameters:
+    t: 96

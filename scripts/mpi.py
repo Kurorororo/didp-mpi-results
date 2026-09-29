@@ -4,6 +4,7 @@
 import csv
 import json
 import math
+import re
 
 
 CONFIGS = (
@@ -150,15 +151,19 @@ def read_timing(path, processes):
     return rows, interval, max(errors, default=0)
 
 
-def load_configurations(directory):
+def load_configurations(directory, definitions=CONFIGS, verify_properties=False):
     configs = []
-    for key, folder, processes, nodes in CONFIGS:
+    for key, folder, processes, nodes in definitions:
         source = directory / folder
         rows, interval, error = read_timing(source / "timing.csv", processes)
         communication = communication_data(rows, processes)
         if communication:
             require(communication["nodes"] == nodes, f"{source}: placement differs from directory label")
         props = json.loads((source / "properties.json").read_text())
+        if verify_properties:
+            recorded = read_recorded_properties(source, processes)
+            require(all(props.get(key) == value for key, value in recorded.items()),
+                    f"{source}: properties differ from logs/statistics")
         require(props["coverage"] == 1 and props.get("invalid", 0) == 0, f"{source}: unsuccessful solve")
         for field in ("expanded", "search_time", "total_time"):
             require(math.isfinite(props[field]) and props[field] > 0, f"{source}: invalid {field}")
@@ -174,3 +179,39 @@ def load_configurations(directory):
 
 def total(c, op):
     return c["rows"]["all", op]["estimated_total_ns"]
+
+
+def salbp_configurations(algorithm):
+    """Run 921 paths; process and node counts follow recorded topology."""
+    prefix = f"salbp-1-{algorithm}"
+    return (
+        ("96p-1n", f"{prefix}-96-run921-sample100/{algorithm}-run-921", 96, 1),
+        ("96p-16n", f"{prefix}-96-16nodes-run921-sample100/96-{algorithm}-run-921", 96, 16),
+        ("1536p-16n", f"{prefix}-1536-run921-sample100/{algorithm}-run-921", 1536, 16),
+    )
+
+
+def read_recorded_properties(source, processes):
+    """Read log fields for validation against properties and rank statistics."""
+    log = (source / "stdout.txt").read_text()
+    fields = {"expanded": "Expanded", "min_expanded": "Min expanded",
+              "max_expanded": "Max expanded", "search_time": "Search time",
+              "total_time": "Total time", "optimal_cost": "optimal cost"}
+    props = {}
+    for key, label in fields.items():
+        matches = re.findall(rf"^{label}: ([0-9.]+)s?$", log, re.MULTILINE)
+        require(len(matches) == 1, f"{source}: missing/ambiguous {label}")
+        props[key] = float(matches[0]) if key in {"search_time", "total_time", "optimal_cost"} else int(matches[0])
+    with (source / "statistics.csv").open(newline="") as stream:
+        ranks = list(csv.DictReader(stream))
+    require(len(ranks) == processes and {int(r["rank"]) for r in ranks} == set(range(processes)),
+            f"{source}: statistics rank mismatch")
+    expanded = [int(r["expanded"]) for r in ranks]
+    require((sum(expanded), min(expanded), max(expanded)) ==
+            tuple(props[k] for k in ("expanded", "min_expanded", "max_expanded")),
+            f"{source}: expansion log/statistics mismatch")
+    return props
+
+
+def load_salbp_configurations(directory, algorithm):
+    return load_configurations(directory, salbp_configurations(algorithm), verify_properties=True)

@@ -1,0 +1,44 @@
+{
+    "optimal_cost": 51.0,
+    "bound": 51.0,
+    "coverage": 1,
+    "proved_infeasible": 0,
+    "expanded": 644541659,
+    "generated": 504744510,
+    "search_time": 225.638818953,
+    "total_time": 230.201794676,
+    "time_to_the_final_solution": 225.791030772,
+    "time_to_mpi_init": 0.125520087,
+    "time_to_init": 0.136080095,
+    "aah_p": null,
+    "kept": 117981089,
+    "sent": 1525776007,
+    "dominated_before_closed": 76585327,
+    "dominated_after_closed": 219793056,
+    "dual_bound_progress": [],
+    "max_expanded": 6798923,
+    "min_expanded": 6473409,
+    "max_received": 15920058,
+    "min_received": 15870101,
+    "cost": 51,
+    "invalid": 0,
+    "feasible": 1,
+    "history": [
+        [
+            0.117014876,
+            53.0
+        ],
+        [
+            0.28712185,
+            52.0
+        ],
+        [
+            64.204423178,
+            51.0
+        ],
+        [
+            225.622612516,
+            51.0
+        ]
+    ]
+}

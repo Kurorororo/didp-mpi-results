@@ -1,0 +1,182 @@
+Time to initialize MPI: 0.328057195s
+Initial dual bound: 50
+Time for initialization: 0.340387643s
+New dual bound: 50
+New primal bound: 56, elapsed time: 0.141372155 (received from rank 353)
+New primal bound: 55, elapsed time: 0.144406409 (received from rank 31)
+New primal bound: 54, elapsed time: 0.146264359 (received from rank 995)
+Received solution from rank: 1506, cost: 57
+Received solution from rank: 31, cost: 55
+Received solution from rank: 995, cost: 54
+New primal bound: 52, elapsed time: 0.296955954 (received from rank 153)
+Received solution from rank: 153, cost: 52
+New primal bound: 51, elapsed time: 1.40561358 (received from rank 941)
+Received solution from rank: 941, cost: 51
+Timings: timing.csv (all ranks and aggregate)
+transitions:
+open-new-station
+do-task t:0
+do-task t:4
+open-new-station
+do-task t:2
+do-task t:1
+open-new-station
+do-task t:8
+do-task t:11
+open-new-station
+do-task t:10
+open-new-station
+do-task t:12
+do-task t:23
+open-new-station
+do-task t:6
+do-task t:24
+open-new-station
+do-task t:16
+do-task t:30
+open-new-station
+do-task t:35
+do-task t:27
+open-new-station
+do-task t:18
+do-task t:38
+open-new-station
+do-task t:42
+do-task t:20
+open-new-station
+do-task t:26
+do-task t:34
+open-new-station
+do-task t:51
+do-task t:5
+open-new-station
+do-task t:47
+do-task t:3
+open-new-station
+do-task t:61
+do-task t:32
+open-new-station
+do-task t:48
+do-task t:15
+open-new-station
+do-task t:31
+do-task t:73
+open-new-station
+do-task t:21
+do-task t:14
+open-new-station
+do-task t:36
+do-task t:41
+open-new-station
+do-task t:44
+do-task t:68
+open-new-station
+do-task t:74
+do-task t:22
+open-new-station
+do-task t:52
+do-task t:60
+open-new-station
+do-task t:90
+do-task t:7
+open-new-station
+do-task t:65
+do-task t:33
+open-new-station
+do-task t:58
+do-task t:43
+open-new-station
+do-task t:46
+do-task t:63
+open-new-station
+do-task t:53
+do-task t:40
+open-new-station
+do-task t:9
+do-task t:50
+open-new-station
+do-task t:77
+do-task t:87
+open-new-station
+do-task t:64
+do-task t:29
+open-new-station
+do-task t:39
+do-task t:25
+open-new-station
+do-task t:19
+do-task t:62
+open-new-station
+do-task t:70
+do-task t:80
+open-new-station
+do-task t:56
+do-task t:85
+open-new-station
+do-task t:54
+do-task t:55
+open-new-station
+do-task t:37
+do-task t:69
+open-new-station
+do-task t:72
+do-task t:57
+open-new-station
+do-task t:49
+do-task t:76
+open-new-station
+do-task t:71
+do-task t:67
+open-new-station
+do-task t:75
+do-task t:83
+open-new-station
+do-task t:82
+do-task t:92
+open-new-station
+do-task t:45
+do-task t:79
+open-new-station
+do-task t:13
+do-task t:78
+open-new-station
+do-task t:99
+do-task t:86
+open-new-station
+do-task t:88
+do-task t:59
+open-new-station
+do-task t:97
+do-task t:84
+open-new-station
+do-task t:17
+do-task t:96
+open-new-station
+do-task t:93
+do-task t:28
+open-new-station
+do-task t:94
+do-task t:81
+open-new-station
+do-task t:89
+do-task t:98
+open-new-station
+do-task t:66
+do-task t:95
+open-new-station
+do-task t:91
+cost: 51
+optimal cost: 51
+Expanded: 456683639
+Generated: 489130980
+Search time: 4.650371815s
+Time to the final solution: 5.033036149s
+Kept: 77069866
+Sent: 1265942760
+Dominated before closed: 107198290
+Dominated after closed: 112824171
+Max expanded: 305122
+Min expanded: 269342
+Max received: 831356
+Min received: 817091
+Total time: 5.600896477s

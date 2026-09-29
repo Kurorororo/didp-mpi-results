@@ -34,7 +34,7 @@ def main():
             from scripts.common import PLOTS
             PLOTS.mkdir(parents=True, exist_ok=True)
             for draw in (plot_benchmarks.build, plot_profiles.failure_modes,
-                         plot_profiles.mpi_breakdown, plot_memory.build):
+                         plot_profiles.mpi_breakdown, plot_profiles.salbp_mpi_breakdown, plot_memory.build):
                 with plt.rc_context():
                     draw()
         report_outputs('figures', 'plots', 'PDFs')

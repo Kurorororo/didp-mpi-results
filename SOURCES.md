@@ -108,3 +108,27 @@ traces. BrFS tables use recorded logs for layer counts and proofs.
 `solution-ledgers/` contains solved-instance lists and best-bound attribution
 for closure and improvement tables. Every path used by the generators resolves
 inside this project; no archived scripts or external source files are required.
+
+## SALBP-1 run 921 MPI breakdowns and communication tables
+
+`plot_profiles.salbp_mpi_breakdown` generates
+`mpi-breakdown-salbp-1-acps-run921.pdf` and
+`mpi-breakdown-salbp-1-apps-run921.pdf` from updated timing/property pairs in
+`data/mpi-timing/salbp-1-*`. Single-machine and 1536-core records are in nested
+`{acps,apps}-run-921` directories; 96-core/16-machine records are in nested
+`96-{acps,apps}-run-921` directories. Older files outside those nested run
+folders are not used. Recorded topology is 96/1, 96/16, and 1536/16.
+
+Both figures use interval-100 estimates, the HAC plot's five categories,
+summed rank microseconds per total expansion, and a shared vertical scale.
+Metrics come from `properties.json`; expansion totals, extrema, search/total
+time, and optimal cost are checked against `stdout.txt`. Expansion totals
+and extrema are also checked against all ranks in `statistics.csv`.
+
+`tables.communication` also generates four tables using the same formatting,
+units, and MPI_Bsend counters as the HAC/TSPTW tables:
+`communication-salbp-1-{acps,apps}-run921.tex` (search time, expansions,
+intra/inter-machine messages in millions, and payload in decimal GB) and
+`communication-per-expansion-salbp-1-{acps,apps}-run921.tex` (intra/inter-machine
+messages and payload bytes per expansion). Timing estimates and exact
+communication counters are validated by the shared MPI loader.
